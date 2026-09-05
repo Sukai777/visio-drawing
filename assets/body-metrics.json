@@ -1,0 +1,8 @@
+{
+  "method": "Measured native master child geometry through Visio BoundingBox; excludes fixed lead children. Fractions are relative to unrotated root width/height.",
+  "resistor": {"width_fraction": 0.8, "height_fraction": 0.5333333333333333},
+  "capacitor": {"width_fraction": 1.0, "height_fraction": 0.1466666666666667},
+  "inductor": {"width_fraction": 1.0, "height_fraction": 0.6684338104696239},
+  "current_source": {"width_fraction": 1.0, "height_fraction": 1.0},
+  "voltage_source": {"width_fraction": 1.0, "height_fraction": 1.0}
+}

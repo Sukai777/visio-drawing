@@ -1,0 +1,307 @@
+﻿{
+    "version":  1,
+    "stencil":  "circuit-components.vssx",
+    "components":  {
+                       "resistor":  {
+                                        "width":  0.19685039370079149,
+                                        "source_master":  "R",
+                                        "height":  0.59055118110236382,
+                                        "master":  "resistor",
+                                        "pins":  {
+                                                     "A":  {
+                                                               "row":  0,
+                                                               "source_child":  3,
+                                                               "v":  0.999999999999997,
+                                                               "u":  0.50000000000000677
+                                                           },
+                                                     "B":  {
+                                                               "row":  1,
+                                                               "source_child":  4,
+                                                               "v":  5.2639374340893948E-15,
+                                                               "u":  0.50000000000001144
+                                                           }
+                                                 }
+                                    },
+                       "inductor":  {
+                                        "width":  0.19708079434031855,
+                                        "source_master":  "L",
+                                        "height":  0.590551181102362,
+                                        "master":  "inductor",
+                                        "pins":  {
+                                                     "A":  {
+                                                               "row":  0,
+                                                               "source_child":  3,
+                                                               "v":  1.0000000000000016,
+                                                               "u":  0.49941510688748231
+                                                           },
+                                                     "B":  {
+                                                               "row":  1,
+                                                               "source_child":  2,
+                                                               "v":  1.5039821240255458E-15,
+                                                               "u":  0.49941510688746876
+                                                           }
+                                                 }
+                                    },
+                       "capacitor":  {
+                                         "width":  0.19685039370078794,
+                                         "source_master":  "C",
+                                         "height":  0.59055118110236471,
+                                         "master":  "capacitor",
+                                         "pins":  {
+                                                      "A":  {
+                                                                "row":  0,
+                                                                "source_child":  3,
+                                                                "v":  1.0000000000000016,
+                                                                "u":  0.50000000000000222
+                                                            },
+                                                      "B":  {
+                                                                "row":  1,
+                                                                "source_child":  4,
+                                                                "v":  1.5039821240255391E-15,
+                                                                "u":  0.50000000000000222
+                                                            }
+                                                  }
+                                     },
+                       "nmos":  {
+                                    "width":  0.4429133858267722,
+                                    "source_master":  "Nmos3.a",
+                                    "height":  0.58858267716535639,
+                                    "master":  "nmos",
+                                    "pins":  {
+                                                 "D":  {
+                                                           "row":  0,
+                                                           "source_child":  6,
+                                                           "v":  0.99999999999999845,
+                                                           "u":  0.999999999999998
+                                                       },
+                                                 "G":  {
+                                                           "row":  1,
+                                                           "source_child":  7,
+                                                           "v":  0.50167224080267447,
+                                                           "u":  0
+                                                       },
+                                                 "S":  {
+                                                           "row":  2,
+                                                           "source_child":  1,
+                                                           "v":  0,
+                                                           "u":  1
+                                                       }
+                                             }
+                                },
+                       "pmos":  {
+                                    "width":  0.44291338582677309,
+                                    "source_master":  "Pmos3.a",
+                                    "height":  0.58858267716535639,
+                                    "master":  "pmos",
+                                    "pins":  {
+                                                 "D":  {
+                                                           "row":  0,
+                                                           "source_child":  1,
+                                                           "v":  0,
+                                                           "u":  0.999999999999998
+                                                       },
+                                                 "G":  {
+                                                           "row":  1,
+                                                           "source_child":  7,
+                                                           "v":  0.50167224080267447,
+                                                           "u":  0
+                                                       },
+                                                 "S":  {
+                                                           "row":  2,
+                                                           "source_child":  6,
+                                                           "v":  0.99999999999999845,
+                                                           "u":  0.999999999999996
+                                                       }
+                                             }
+                                },
+                       "nmos4":  {
+                                     "width":  0.54133858267716484,
+                                     "source_master":  "Nmos4",
+                                     "height":  0.59055118110236382,
+                                     "master":  "nmos4",
+                                     "pins":  {
+                                                  "B":  {
+                                                            "row":  0,
+                                                            "source_child":  8,
+                                                            "v":  0.50000000000000377,
+                                                            "u":  0.99999999999999833
+                                                        },
+                                                  "D":  {
+                                                            "row":  1,
+                                                            "source_child":  7,
+                                                            "v":  0.99999999999999845,
+                                                            "u":  0.81818181818182
+                                                        },
+                                                  "G":  {
+                                                            "row":  2,
+                                                            "source_child":  6,
+                                                            "v":  0.49999999999999922,
+                                                            "u":  0
+                                                        },
+                                                  "S":  {
+                                                            "row":  3,
+                                                            "source_child":  5,
+                                                            "v":  0,
+                                                            "u":  0.81818181818182
+                                                        }
+                                              }
+                                 },
+                       "pmos4":  {
+                                     "width":  0.541338582677164,
+                                     "source_master":  "Pmos4",
+                                     "height":  0.59055118110236382,
+                                     "master":  "pmos4",
+                                     "pins":  {
+                                                  "B":  {
+                                                            "row":  0,
+                                                            "source_child":  8,
+                                                            "v":  0.50000000000000377,
+                                                            "u":  1
+                                                        },
+                                                  "D":  {
+                                                            "row":  1,
+                                                            "source_child":  5,
+                                                            "v":  0,
+                                                            "u":  0.81818181818182134
+                                                        },
+                                                  "G":  {
+                                                            "row":  2,
+                                                            "source_child":  6,
+                                                            "v":  0.49999999999999922,
+                                                            "u":  0
+                                                        },
+                                                  "S":  {
+                                                            "row":  3,
+                                                            "source_child":  7,
+                                                            "v":  0.99999999999999845,
+                                                            "u":  0.81818181818182134
+                                                        }
+                                              }
+                                 },
+                       "npn":  {
+                                   "width":  0.44291338582677309,
+                                   "source_master":  "npn",
+                                   "height":  0.59055118110236293,
+                                   "master":  "npn",
+                                   "pins":  {
+                                                "B":  {
+                                                          "row":  0,
+                                                          "source_child":  6,
+                                                          "v":  0.50000000000000155,
+                                                          "u":  0
+                                                      },
+                                                "C":  {
+                                                          "row":  1,
+                                                          "source_child":  4,
+                                                          "v":  1,
+                                                          "u":  0.999999999999998
+                                                      },
+                                                "E":  {
+                                                          "row":  2,
+                                                          "source_child":  5,
+                                                          "v":  1.5039821240255436E-15,
+                                                          "u":  0.999999999999998
+                                                      }
+                                            }
+                               },
+                       "pnp":  {
+                                   "width":  0.4429133858267722,
+                                   "source_master":  "pnp",
+                                   "height":  0.589293525809274,
+                                   "master":  "pnp",
+                                   "pins":  {
+                                                "B":  {
+                                                          "row":  0,
+                                                          "source_child":  6,
+                                                          "v":  0.49893291268442153,
+                                                          "u":  0
+                                                      },
+                                                "C":  {
+                                                          "row":  1,
+                                                          "source_child":  4,
+                                                          "v":  0,
+                                                          "u":  1
+                                                      },
+                                                "E":  {
+                                                          "row":  2,
+                                                          "source_child":  5,
+                                                          "v":  0.99999999999999845,
+                                                          "u":  1
+                                                      }
+                                            }
+                               },
+                       "ground":  {
+                                      "width":  0.19685039370078705,
+                                      "source_master":  "GND",
+                                      "height":  0.24606299212598426,
+                                      "master":  "ground",
+                                      "pins":  {
+                                                   "P":  {
+                                                             "row":  0,
+                                                             "source_child":  5,
+                                                             "v":  1,
+                                                             "u":  0.50000000000000011
+                                                         }
+                                               }
+                                  },
+                       "line_section":  {
+                                            "width":  0.4,
+                                            "source_master":  "original geometry",
+                                            "height":  0.16,
+                                            "master":  "line_section",
+                                            "pins":  {
+                                                         "A":  {
+                                                                   "row":  0,
+                                                                   "v":  0.5,
+                                                                   "u":  0
+                                                               },
+                                                         "B":  {
+                                                                   "row":  1,
+                                                                   "v":  0.5,
+                                                                   "u":  1
+                                                               }
+                                                     }
+                                        },
+                       "pad":  {
+                                   "width":  0.5,
+                                   "source_master":  "original geometry",
+                                   "height":  0.5,
+                                   "master":  "pad",
+                                   "pins":  {
+                                                "A":  {
+                                                          "row":  0,
+                                                          "v":  0.5,
+                                                          "u":  0
+                                                      },
+                                                "B":  {
+                                                          "row":  1,
+                                                          "v":  0.5,
+                                                          "u":  1
+                                                      },
+                                                "T":  {
+                                                          "row":  2,
+                                                          "v":  1,
+                                                          "u":  0.5
+                                                      },
+                                                "U":  {
+                                                          "row":  3,
+                                                          "v":  0,
+                                                          "u":  0.5
+                                                      }
+                                            }
+                               },
+                       "junction":  {
+                                        "width":  0.08,
+                                        "source_master":  "original geometry",
+                                        "height":  0.08,
+                                        "master":  "junction",
+                                        "pins":  {
+                                                     "P":  {
+                                                               "row":  0,
+                                                               "v":  0.5,
+                                                               "u":  0.5
+                                                           }
+                                                 }
+                                    }
+                   }
+}
