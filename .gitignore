@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.build/
+*.lock.json
+*.compiled.json
+*.backup-*
+Thumbs.db
+.DS_Store
