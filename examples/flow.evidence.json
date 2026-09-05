@@ -1,0 +1,138 @@
+{
+  "source": "sources/flow.png",
+  "reviewed_from_source": true,
+  "panels": [
+    {
+      "id": "flow",
+      "bbox": [
+        0,
+        0,
+        620,
+        470
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "id": "CTRL",
+      "type": "container",
+      "panel": "flow",
+      "bbox": [
+        20,
+        10,
+        580,
+        440
+      ],
+      "text": "",
+      "color": "#64748b",
+      "fill": "#ffffff"
+    },
+    {
+      "id": "START",
+      "type": "terminator",
+      "panel": "flow",
+      "bbox": [
+        220,
+        35,
+        120,
+        40
+      ],
+      "text": "Start",
+      "parent": "CTRL",
+      "color": "#15803d",
+      "fill": "#dcfce7"
+    },
+    {
+      "id": "READ",
+      "type": "process",
+      "panel": "flow",
+      "bbox": [
+        220,
+        105,
+        120,
+        40
+      ],
+      "text": "Read data",
+      "parent": "CTRL",
+      "color": "#2563eb",
+      "fill": "#dbeafe"
+    },
+    {
+      "id": "VALID",
+      "type": "decision",
+      "panel": "flow",
+      "bbox": [
+        210,
+        190,
+        140,
+        80
+      ],
+      "text": "Valid?",
+      "parent": "CTRL",
+      "color": "#b45309",
+      "fill": "#fef3c7"
+    },
+    {
+      "id": "FINISH",
+      "type": "terminator",
+      "panel": "flow",
+      "bbox": [
+        220,
+        335,
+        120,
+        40
+      ],
+      "text": "Finish",
+      "parent": "CTRL",
+      "color": "#15803d",
+      "fill": "#dcfce7"
+    },
+    {
+      "id": "RETRY",
+      "type": "process",
+      "panel": "flow",
+      "bbox": [
+        410,
+        205,
+        120,
+        50
+      ],
+      "text": "Retry",
+      "parent": "CTRL",
+      "color": "#b91c1c",
+      "fill": "#fee2e2"
+    }
+  ],
+  "edges": [
+    {
+      "to": "READ.T",
+      "label": "",
+      "from": "START.B"
+    },
+    {
+      "to": "VALID.T",
+      "label": "",
+      "from": "READ.B"
+    },
+    {
+      "to": "FINISH.T",
+      "label": "Yes",
+      "from": "VALID.B"
+    },
+    {
+      "to": "RETRY.L",
+      "label": "No",
+      "from": "VALID.R"
+    },
+    {
+      "to": "READ.R",
+      "label": "",
+      "from": "RETRY.T"
+    }
+  ],
+  "labels": [
+    "Controller"
+  ],
+  "uncertainties": [],
+  "revision_reason": "Record semantic start/decision/retry colors explicitly."
+}

@@ -1,0 +1,342 @@
+{
+  "version": 2,
+  "canvas": [
+    570,
+    320
+  ],
+  "inches_per_unit": 0.013,
+  "font": "Times New Roman",
+  "panels": [
+    {
+      "id": "lr",
+      "at": [
+        0,
+        0
+      ],
+      "size": [
+        570,
+        320
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "L4",
+      "type": "inductor",
+      "panel": "lr",
+      "at": [
+        150,
+        70
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "R16",
+      "type": "resistor",
+      "panel": "lr",
+      "at": [
+        150,
+        140
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "R19",
+      "type": "resistor",
+      "panel": "lr",
+      "at": [
+        420,
+        70
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "L5",
+      "type": "inductor",
+      "panel": "lr",
+      "at": [
+        420,
+        140
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "TL14",
+      "type": "line_section",
+      "panel": "lr",
+      "at": [
+        60,
+        250
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "TL15",
+      "type": "line_section",
+      "panel": "lr",
+      "at": [
+        185,
+        250
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "TL17",
+      "type": "line_section",
+      "panel": "lr",
+      "at": [
+        330,
+        250
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "C12",
+      "type": "capacitor",
+      "panel": "lr",
+      "at": [
+        465,
+        250
+      ],
+      "rotate": 90,
+      "anchor": "A"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "LEFT",
+      "panel": "lr",
+      "at": [
+        150,
+        250
+      ]
+    },
+    {
+      "id": "RIGHT",
+      "panel": "lr",
+      "at": [
+        420,
+        250
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "from": "L4.A",
+      "to": "R19.A",
+      "panel": "lr",
+      "via": [
+        [
+          150,
+          40
+        ],
+        [
+          420,
+          40
+        ]
+      ]
+    },
+    {
+      "from": "L4.B",
+      "to": "R16.A"
+    },
+    {
+      "from": "R19.B",
+      "to": "L5.A"
+    },
+    {
+      "from": "R16.B",
+      "to": "LEFT.P"
+    },
+    {
+      "from": "LEFT.P",
+      "to": "TL14.B"
+    },
+    {
+      "from": "LEFT.P",
+      "to": "TL15.A"
+    },
+    {
+      "from": "L5.B",
+      "to": "RIGHT.P"
+    },
+    {
+      "from": "RIGHT.P",
+      "to": "TL17.B"
+    },
+    {
+      "from": "RIGHT.P",
+      "to": "C12.A"
+    }
+  ],
+  "labels": [
+    {
+      "panel": "lr",
+      "at": [
+        102,
+        88
+      ],
+      "w": 85,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "L4",
+      "runs": [
+        {
+          "text": "L"
+        },
+        {
+          "text": "4",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "lr",
+      "at": [
+        96,
+        152
+      ],
+      "w": 85,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "R16",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "16",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "lr",
+      "at": [
+        435,
+        84
+      ],
+      "w": 85,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "R19",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "19",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "lr",
+      "at": [
+        435,
+        152
+      ],
+      "w": 85,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "L5",
+      "runs": [
+        {
+          "text": "L"
+        },
+        {
+          "text": "5",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "lr",
+      "at": [
+        55,
+        265
+      ],
+      "w": 85,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "TL14",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "14",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "lr",
+      "at": [
+        185,
+        265
+      ],
+      "w": 85,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "TL15",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "15",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "lr",
+      "at": [
+        325,
+        265
+      ],
+      "w": 85,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "TL17",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "17",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "lr",
+      "at": [
+        478,
+        265
+      ],
+      "w": 85,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "C12",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "12",
+          "sub": true
+        }
+      ]
+    }
+  ]
+}

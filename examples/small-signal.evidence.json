@@ -1,0 +1,250 @@
+{
+  "source": "sources/equivalent.png",
+  "reviewed_from_source": true,
+  "panels": [
+    {
+      "id": "c",
+      "bbox": [
+        115,
+        480,
+        590,
+        345
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "id": "IN",
+      "type": "pad",
+      "panel": "c",
+      "bbox": [
+        175,
+        522,
+        18,
+        18
+      ]
+    },
+    {
+      "id": "ING",
+      "type": "pad",
+      "panel": "c",
+      "bbox": [
+        175,
+        642,
+        18,
+        18
+      ]
+    },
+    {
+      "id": "G_IN",
+      "type": "ground",
+      "panel": "c",
+      "bbox": [
+        165,
+        671,
+        38,
+        25
+      ]
+    },
+    {
+      "id": "CGS",
+      "type": "capacitor",
+      "panel": "c",
+      "bbox": [
+        266,
+        530,
+        44,
+        122
+      ]
+    },
+    {
+      "id": "GM",
+      "type": "current_source",
+      "panel": "c",
+      "bbox": [
+        360,
+        530,
+        55,
+        122
+      ]
+    },
+    {
+      "id": "CDS",
+      "type": "capacitor",
+      "panel": "c",
+      "bbox": [
+        499,
+        531,
+        44,
+        120
+      ]
+    },
+    {
+      "id": "RDS",
+      "type": "resistor",
+      "panel": "c",
+      "bbox": [
+        589,
+        532,
+        33,
+        120
+      ]
+    },
+    {
+      "id": "CVGC",
+      "type": "capacitor",
+      "panel": "c",
+      "bbox": [
+        365,
+        651,
+        44,
+        87
+      ]
+    },
+    {
+      "id": "RLER",
+      "type": "resistor",
+      "panel": "c",
+      "bbox": [
+        504,
+        652,
+        32,
+        84
+      ]
+    },
+    {
+      "id": "G_CVGC",
+      "type": "ground",
+      "panel": "c",
+      "bbox": [
+        367,
+        735,
+        38,
+        24
+      ]
+    },
+    {
+      "id": "G_RLER",
+      "type": "ground",
+      "panel": "c",
+      "bbox": [
+        501,
+        735,
+        38,
+        24
+      ]
+    },
+    {
+      "id": "G_OUT",
+      "type": "ground",
+      "panel": "c",
+      "bbox": [
+        642,
+        515,
+        30,
+        34
+      ]
+    }
+  ],
+  "nets": {
+    "gate": [
+      "IN.B",
+      "CGS.A"
+    ],
+    "source": [
+      "CGS.B",
+      "GM.B",
+      "CDS.B",
+      "RDS.B",
+      "CVGC.A",
+      "RLER.A"
+    ],
+    "0": [
+      "GM.A",
+      "CDS.A",
+      "RDS.A",
+      "G_OUT.P",
+      "CVGC.B",
+      "RLER.B",
+      "G_CVGC.P",
+      "G_RLER.P",
+      "ING.U",
+      "G_IN.P"
+    ]
+  },
+  "must_separate": [
+    [
+      "CGS.A",
+      "GM.A"
+    ]
+  ],
+  "must_connect": [
+    [
+      "GM.A",
+      "G_OUT.P"
+    ]
+  ],
+  "open_pins": {},
+  "edges": [],
+  "uncertainties": [],
+  "labels": [
+    "in",
+    "Cgs",
+    "gmvgs",
+    "Cds",
+    "Rds",
+    "Cvgc",
+    "RLER",
+    "Iout",
+    "vgs",
+    "+",
+    "−",
+    "+",
+    "−",
+    "Zin vin",
+    "(c)"
+  ],
+  "junctions": [
+    {
+      "id": "SOURCE",
+      "panel": "c",
+      "bbox": [
+        382,
+        646,
+        10,
+        10
+      ]
+    },
+    {
+      "id": "SOURCE_R",
+      "panel": "c",
+      "bbox": [
+        516,
+        646,
+        10,
+        10
+      ]
+    },
+    {
+      "id": "TOP",
+      "panel": "c",
+      "bbox": [
+        516,
+        527,
+        10,
+        10
+      ]
+    },
+    {
+      "id": "OUT_TOP",
+      "panel": "c",
+      "bbox": [
+        602,
+        527,
+        10,
+        10
+      ]
+    }
+  ],
+  "revision_reason": "Include visible junction dots as explicit source evidence; electrical networks unchanged."
+}

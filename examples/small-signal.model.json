@@ -1,0 +1,568 @@
+{
+  "version": 2,
+  "canvas": [
+    700,
+    370
+  ],
+  "inches_per_unit": 0.013,
+  "font": "Times New Roman",
+  "panels": [
+    {
+      "id": "c",
+      "at": [
+        0,
+        0
+      ],
+      "size": [
+        700,
+        370
+      ]
+    }
+  ],
+  "styles": {
+    "capacitor": {
+      "span": 66,
+      "aspect": 0.6,
+      "source_reason": "Reference capacitor plates are wide relative to the short fixed symbol lead span."
+    }
+  },
+  "components": [
+    {
+      "id": "IN",
+      "type": "pad",
+      "panel": "c",
+      "at": [
+        70,
+        55
+      ]
+    },
+    {
+      "id": "ING",
+      "type": "pad",
+      "panel": "c",
+      "at": [
+        70,
+        185
+      ]
+    },
+    {
+      "id": "G_IN",
+      "type": "ground",
+      "panel": "c",
+      "at": [
+        70,
+        215
+      ],
+      "anchor": "P"
+    },
+    {
+      "id": "CGS",
+      "type": "capacitor",
+      "panel": "c",
+      "at": [
+        185,
+        92
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "GM",
+      "type": "current_source",
+      "panel": "c",
+      "at": [
+        310,
+        100
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "CDS",
+      "type": "capacitor",
+      "panel": "c",
+      "at": [
+        445,
+        92
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "RDS",
+      "type": "resistor",
+      "panel": "c",
+      "at": [
+        550,
+        100
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "CVGC",
+      "type": "capacitor",
+      "panel": "c",
+      "at": [
+        310,
+        220
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "RLER",
+      "type": "resistor",
+      "panel": "c",
+      "at": [
+        445,
+        225
+      ],
+      "anchor": "A"
+    },
+    {
+      "id": "G_CVGC",
+      "type": "ground",
+      "panel": "c",
+      "at": [
+        310,
+        310
+      ],
+      "anchor": "P"
+    },
+    {
+      "id": "G_RLER",
+      "type": "ground",
+      "panel": "c",
+      "at": [
+        445,
+        310
+      ],
+      "anchor": "P"
+    },
+    {
+      "id": "G_OUT",
+      "type": "ground",
+      "panel": "c",
+      "at": [
+        595,
+        55
+      ],
+      "rotate": 90,
+      "anchor": "P"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "SOURCE",
+      "panel": "c",
+      "at": [
+        310,
+        185
+      ]
+    },
+    {
+      "id": "SOURCE_R",
+      "panel": "c",
+      "at": [
+        445,
+        185
+      ]
+    },
+    {
+      "id": "TOP",
+      "panel": "c",
+      "at": [
+        445,
+        55
+      ]
+    },
+    {
+      "id": "OUT_TOP",
+      "panel": "c",
+      "at": [
+        550,
+        55
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "from": "IN.B",
+      "to": "CGS.A",
+      "route": "hv"
+    },
+    {
+      "from": "ING.U",
+      "to": "G_IN.P"
+    },
+    {
+      "from": "GM.A",
+      "to": "TOP.P",
+      "route": "vh"
+    },
+    {
+      "from": "OUT_TOP.P",
+      "to": "G_OUT.P"
+    },
+    {
+      "from": "TOP.P",
+      "to": "CDS.A"
+    },
+    {
+      "from": "TOP.P",
+      "to": "OUT_TOP.P"
+    },
+    {
+      "from": "OUT_TOP.P",
+      "to": "RDS.A"
+    },
+    {
+      "from": "CGS.B",
+      "to": "SOURCE.P",
+      "route": "vh"
+    },
+    {
+      "from": "GM.B",
+      "to": "SOURCE.P"
+    },
+    {
+      "from": "CDS.B",
+      "to": "SOURCE_R.P"
+    },
+    {
+      "from": "RDS.B",
+      "to": "SOURCE_R.P",
+      "route": "vh"
+    },
+    {
+      "from": "SOURCE.P",
+      "to": "SOURCE_R.P"
+    },
+    {
+      "from": "SOURCE.P",
+      "to": "CVGC.A"
+    },
+    {
+      "from": "SOURCE_R.P",
+      "to": "RLER.A"
+    },
+    {
+      "from": "CVGC.B",
+      "to": "G_CVGC.P"
+    },
+    {
+      "from": "RLER.B",
+      "to": "G_RLER.P"
+    }
+  ],
+  "labels": [
+    {
+      "panel": "c",
+      "at": [
+        57,
+        16
+      ],
+      "w": 60,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "in"
+    },
+    {
+      "panel": "c",
+      "at": [
+        110,
+        106
+      ],
+      "w": 75,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "Cgs",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "gs",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "c",
+      "at": [
+        340,
+        107
+      ],
+      "w": 100,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "gmvgs",
+      "runs": [
+        {
+          "text": "g"
+        },
+        {
+          "text": "m",
+          "sub": true
+        },
+        {
+          "text": "v"
+        },
+        {
+          "text": "gs",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "c",
+      "at": [
+        470,
+        106
+      ],
+      "w": 75,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "Cds",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "ds",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "c",
+      "at": [
+        575,
+        106
+      ],
+      "w": 80,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "Rds",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "ds",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "c",
+      "at": [
+        225,
+        232
+      ],
+      "w": 85,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "Cvgc",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "vgc",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "c",
+      "at": [
+        470,
+        232
+      ],
+      "w": 100,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "RLER",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "LER",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "c",
+      "at": [
+        537,
+        12
+      ],
+      "w": 85,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "Iout",
+      "runs": [
+        {
+          "text": "I"
+        },
+        {
+          "text": "out",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "c",
+      "at": [
+        211,
+        110
+      ],
+      "w": 70,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "vgs",
+      "runs": [
+        {
+          "text": "v"
+        },
+        {
+          "text": "gs",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "c",
+      "at": [
+        58,
+        70
+      ],
+      "w": 30,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "+"
+    },
+    {
+      "panel": "c",
+      "at": [
+        58,
+        148
+      ],
+      "w": 30,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "−"
+    },
+    {
+      "panel": "c",
+      "at": [
+        210,
+        60
+      ],
+      "w": 30,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "+"
+    },
+    {
+      "panel": "c",
+      "at": [
+        211,
+        155
+      ],
+      "w": 30,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "−"
+    },
+    {
+      "panel": "c",
+      "at": [
+        10,
+        111
+      ],
+      "w": 100,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "Zin vin",
+      "runs": [
+        {
+          "text": "Z"
+        },
+        {
+          "text": "in",
+          "sub": true
+        },
+        {
+          "text": " v"
+        },
+        {
+          "text": "in",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "c",
+      "at": [
+        322,
+        332
+      ],
+      "w": 60,
+      "h": 30,
+      "font_size": 18,
+      "style": 3,
+      "text": "(c)"
+    }
+  ],
+  "annotations": [
+    {
+      "kind": "arrow",
+      "panel": "c",
+      "points": [
+        [
+          580,
+          55
+        ],
+        [
+          551,
+          55
+        ]
+      ],
+      "purpose": "Output current direction"
+    },
+    {
+      "kind": "arrow",
+      "panel": "c",
+      "points": [
+        [
+          10,
+          151
+        ],
+        [
+          40,
+          151
+        ]
+      ],
+      "purpose": "Input impedance direction"
+    }
+  ],
+  "transform_test_ids": [
+    "GM",
+    "CGS",
+    "RDS"
+  ]
+}

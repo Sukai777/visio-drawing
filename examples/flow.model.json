@@ -1,0 +1,185 @@
+{
+  "version": 2,
+  "canvas": [
+    620,
+    470
+  ],
+  "inches_per_unit": 0.014,
+  "font": "Arial",
+  "panels": [
+    {
+      "id": "flow",
+      "at": [
+        0,
+        0
+      ],
+      "size": [
+        620,
+        470
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "CTRL",
+      "type": "container",
+      "panel": "flow",
+      "at": [
+        310.0,
+        230.0
+      ],
+      "w": 580,
+      "h": 440,
+      "text": "",
+      "font_size": 14,
+      "fill": "#ffffff",
+      "color": "#64748b",
+      "text_color": "#172b4d"
+    },
+    {
+      "id": "START",
+      "type": "terminator",
+      "panel": "flow",
+      "at": [
+        280.0,
+        55.0
+      ],
+      "w": 120,
+      "h": 40,
+      "text": "Start",
+      "font_size": 14,
+      "fill": "#dcfce7",
+      "parent": "CTRL",
+      "color": "#15803d",
+      "text_color": "#172b4d"
+    },
+    {
+      "id": "READ",
+      "type": "process",
+      "panel": "flow",
+      "at": [
+        280.0,
+        125.0
+      ],
+      "w": 120,
+      "h": 40,
+      "text": "Read data",
+      "font_size": 14,
+      "fill": "#dbeafe",
+      "parent": "CTRL",
+      "color": "#2563eb",
+      "text_color": "#172b4d"
+    },
+    {
+      "id": "VALID",
+      "type": "decision",
+      "panel": "flow",
+      "at": [
+        280.0,
+        230.0
+      ],
+      "w": 140,
+      "h": 80,
+      "text": "Valid?",
+      "font_size": 14,
+      "fill": "#fef3c7",
+      "parent": "CTRL",
+      "color": "#b45309",
+      "text_color": "#172b4d"
+    },
+    {
+      "id": "FINISH",
+      "type": "terminator",
+      "panel": "flow",
+      "at": [
+        280.0,
+        355.0
+      ],
+      "w": 120,
+      "h": 40,
+      "text": "Finish",
+      "font_size": 14,
+      "fill": "#dcfce7",
+      "parent": "CTRL",
+      "color": "#15803d",
+      "text_color": "#172b4d"
+    },
+    {
+      "id": "RETRY",
+      "type": "process",
+      "panel": "flow",
+      "at": [
+        470.0,
+        230.0
+      ],
+      "w": 120,
+      "h": 50,
+      "text": "Retry",
+      "font_size": 14,
+      "fill": "#fee2e2",
+      "parent": "CTRL",
+      "color": "#b91c1c",
+      "text_color": "#172b4d"
+    }
+  ],
+  "wires": [
+    {
+      "to": "READ.T",
+      "label": "",
+      "from": "START.B",
+      "kind": "edge",
+      "id": "edge0"
+    },
+    {
+      "to": "VALID.T",
+      "label": "",
+      "from": "READ.B",
+      "kind": "edge",
+      "id": "edge1"
+    },
+    {
+      "to": "FINISH.T",
+      "label": "Yes",
+      "from": "VALID.B",
+      "kind": "edge",
+      "id": "edge2"
+    },
+    {
+      "to": "RETRY.L",
+      "label": "No",
+      "from": "VALID.R",
+      "kind": "edge",
+      "id": "edge3"
+    },
+    {
+      "to": "READ.R",
+      "label": "",
+      "from": "RETRY.T",
+      "kind": "edge",
+      "id": "edge4",
+      "panel": "flow",
+      "via": [
+        [
+          470,
+          125
+        ]
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "panel": "flow",
+      "at": [
+        40,
+        15
+      ],
+      "w": 150,
+      "h": 28,
+      "font_size": 14,
+      "text": "Controller"
+    }
+  ],
+  "transform_test_ids": [
+    "VALID"
+  ]
+}

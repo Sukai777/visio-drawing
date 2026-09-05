@@ -1,0 +1,198 @@
+{
+  "source": "sources/lna.png",
+  "reviewed_from_source": true,
+  "panels": [
+    {
+      "id": "lr",
+      "bbox": [
+        980,
+        55,
+        535,
+        350
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "id": "L4",
+      "type": "inductor",
+      "panel": "lr",
+      "bbox": [
+        1046,
+        125,
+        35,
+        53
+      ]
+    },
+    {
+      "id": "R16",
+      "type": "resistor",
+      "panel": "lr",
+      "bbox": [
+        1050,
+        197,
+        30,
+        47
+      ]
+    },
+    {
+      "id": "R19",
+      "type": "resistor",
+      "panel": "lr",
+      "bbox": [
+        1394,
+        126,
+        25,
+        49
+      ]
+    },
+    {
+      "id": "L5",
+      "type": "inductor",
+      "panel": "lr",
+      "bbox": [
+        1390,
+        191,
+        37,
+        53
+      ]
+    },
+    {
+      "id": "TL14",
+      "type": "line_section",
+      "panel": "lr",
+      "bbox": [
+        991,
+        345,
+        54,
+        23
+      ]
+    },
+    {
+      "id": "TL15",
+      "type": "line_section",
+      "panel": "lr",
+      "bbox": [
+        1080,
+        345,
+        53,
+        23
+      ]
+    },
+    {
+      "id": "TL17",
+      "type": "line_section",
+      "panel": "lr",
+      "bbox": [
+        1330,
+        313,
+        55,
+        23
+      ]
+    },
+    {
+      "id": "C12",
+      "type": "capacitor",
+      "panel": "lr",
+      "bbox": [
+        1424,
+        307,
+        35,
+        34
+      ]
+    }
+  ],
+  "nets": {
+    "supply": [
+      "L4.A",
+      "R19.A"
+    ],
+    "left_series": [
+      "L4.B",
+      "R16.A"
+    ],
+    "right_series": [
+      "R19.B",
+      "L5.A"
+    ],
+    "left_node": [
+      "R16.B",
+      "TL14.B",
+      "TL15.A"
+    ],
+    "right_node": [
+      "L5.B",
+      "TL17.B",
+      "C12.A"
+    ],
+    "left_boundary": [
+      "TL14.A"
+    ],
+    "left_out": [
+      "TL15.B"
+    ],
+    "right_boundary": [
+      "TL17.A"
+    ],
+    "right_out": [
+      "C12.B"
+    ]
+  },
+  "open_pins": {
+    "TL14.A": "Boundary of extracted LR region; continues outside the crop in the full reference.",
+    "TL15.B": "Boundary of extracted LR region; continues outside the crop in the full reference.",
+    "TL17.A": "Boundary of extracted LR region; continues outside the crop in the full reference.",
+    "C12.B": "Boundary of extracted LR region; continues outside the crop in the full reference."
+  },
+  "must_connect": [
+    [
+      "R16.B",
+      "TL14.B"
+    ],
+    [
+      "L5.B",
+      "C12.A"
+    ]
+  ],
+  "must_separate": [
+    [
+      "R16.B",
+      "L5.B"
+    ]
+  ],
+  "labels": [
+    "L4",
+    "R16",
+    "R19",
+    "L5",
+    "TL14",
+    "TL15",
+    "TL17",
+    "C12"
+  ],
+  "uncertainties": [],
+  "junctions": [
+    {
+      "id": "LEFT",
+      "panel": "lr",
+      "bbox": [
+        1059,
+        352,
+        9,
+        9
+      ]
+    },
+    {
+      "id": "RIGHT",
+      "panel": "lr",
+      "bbox": [
+        1401,
+        320,
+        9,
+        9
+      ]
+    }
+  ],
+  "revision_reason": "Include visible LR lower connection dots in source inventory.",
+  "scope": "Selected LR branch boundary test only, not a complete reconstruction of the full crop."
+}
