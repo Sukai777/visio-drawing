@@ -1,0 +1,56 @@
+{
+  "native_connectivity": "passed",
+  "inventory": "passed",
+  "nets": 49,
+  "directed_edges": 0,
+  "saved_glued_endpoints": 324,
+  "embedded_media": [],
+  "layout_findings": [
+    {
+      "text": "M2",
+      "id": "label-symbol-600-M2",
+      "object": "M2",
+      "message": "Text overlaps symbol bounds (including fixed leads)"
+    },
+    {
+      "text": "M4",
+      "id": "label-symbol-623-M4",
+      "object": "M4",
+      "message": "Text overlaps symbol bounds (including fixed leads)"
+    },
+    {
+      "text": "R10",
+      "id": "label-symbol-630-M0_2",
+      "object": "M0_2",
+      "message": "Text overlaps symbol bounds (including fixed leads)"
+    },
+    {
+      "text": "R10",
+      "id": "label-symbol-630-R10",
+      "object": "R10",
+      "message": "Text overlaps symbol bounds (including fixed leads)"
+    },
+    {
+      "text": "M0_2",
+      "id": "label-symbol-631-M0_2",
+      "object": "M0_2",
+      "message": "Text overlaps symbol bounds (including fixed leads)"
+    },
+    {
+      "id": "label-overlap-655-622",
+      "texts": [
+        "RC Circuit",
+        "R18"
+      ],
+      "message": "Text bounds overlap"
+    }
+  ],
+  "source_interpretation": "visually_reviewed",
+  "uncertainties": [],
+  "vsdx_sha256": "4b17c78c5eda0a7bf31b1367c25619c277471bf821641bafa1fb594af9d0d107",
+  "compiled_sha256": "a888e79f76c5e5c842e7e17ea1d9773788e021c4c8bf9b9a846b025514f7eea3",
+  "source_sha256": "34c81e159cfa3fbd4cf26fcb2335ce6e98a1215af623b0ce8dd2b5a5dae9e985",
+  "scope": "Checks confirm consistency with locked source transcription, not automatic proof of image interpretation.",
+  "status": "complete",
+  "visual_review_sha256": "187f823e20ff48492594b0488b9798d6fe153d92b95eaa236f55de5eecac460b"
+}

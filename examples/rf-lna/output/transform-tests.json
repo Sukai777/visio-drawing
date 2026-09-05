@@ -1,0 +1,47 @@
+{
+  "source": "First RF LNA rendering; unchanged representative electrical masters",
+  "transform_tests": [
+    {
+      "mirror": "passed",
+      "rotate_90": "passed",
+      "translate": "passed",
+      "restored": "passed",
+      "component": "M0_1"
+    },
+    {
+      "mirror": "passed",
+      "rotate_90": "passed",
+      "translate": "passed",
+      "restored": "passed",
+      "component": "M0_2"
+    },
+    {
+      "mirror": "passed",
+      "rotate_90": "passed",
+      "translate": "passed",
+      "restored": "passed",
+      "component": "M3"
+    },
+    {
+      "mirror": "passed",
+      "rotate_90": "passed",
+      "translate": "passed",
+      "restored": "passed",
+      "component": "C1"
+    },
+    {
+      "mirror": "passed",
+      "rotate_90": "passed",
+      "translate": "passed",
+      "restored": "passed",
+      "component": "L2"
+    },
+    {
+      "mirror": "passed",
+      "rotate_90": "passed",
+      "translate": "passed",
+      "restored": "passed",
+      "component": "TL13"
+    }
+  ]
+}

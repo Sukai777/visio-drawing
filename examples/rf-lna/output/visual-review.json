@@ -1,0 +1,56 @@
+{
+  "vsdx_sha256": "4b17c78c5eda0a7bf31b1367c25619c277471bf821641bafa1fb594af9d0d107",
+  "panels": [
+    {
+      "id": "input_feedback",
+      "status": "passed",
+      "checks": {
+        "inventory": "passed",
+        "topology": "passed",
+        "symbols": "passed",
+        "text": "passed",
+        "layout": "passed"
+      },
+      "findings": [],
+      "resolved_layout_findings": [],
+      "notes": "Inspected final source/reconstruction comparison: all devices, sideways C2 ground, flipped M0_1, input dots and R3 routing are preserved. R7 branches above TL4 while C3/TL5 join below it. Current-reuse branch leaves the M1 drain and joins below TL6. Rounded highlights, labels and body sizes remain legible. Native symbol coil/ground line conventions differ slightly from reference."
+    },
+    {
+      "id": "core_stability",
+      "status": "passed",
+      "checks": {
+        "inventory": "passed",
+        "topology": "passed",
+        "symbols": "passed",
+        "text": "passed",
+        "layout": "passed"
+      },
+      "findings": [],
+      "resolved_layout_findings": [
+        "label-symbol-600-M2",
+        "label-symbol-630-M0_2",
+        "label-symbol-630-R10",
+        "label-symbol-631-M0_2"
+      ],
+      "notes": "Inspected final source/reconstruction comparison and enlarged lower-bias label crop. C5 is grounded; M3 upper terminal is source and lower terminal is drain. C7-R14-TL13 form one series gate-to-drain path, as visible in this source; no false bypass connects TL13 directly to the gate. R10 and M0_2 glyphs lie in empty spaces within the conservative master rectangles, clear of actual transistor strokes and resistor body. M2 label similarly occupies the open space next to its channel. R14 was moved above its zigzag. Supply label has a connected terminal bar."
+    },
+    {
+      "id": "output_bias",
+      "status": "passed",
+      "checks": {
+        "inventory": "passed",
+        "topology": "passed",
+        "symbols": "passed",
+        "text": "passed",
+        "layout": "passed"
+      },
+      "findings": [],
+      "resolved_layout_findings": [
+        "label-symbol-623-M4",
+        "label-overlap-655-622"
+      ],
+      "notes": "Inspected final source/reconstruction comparison and enlarged RC caption crop. R16 joins TL14/TL15; L5 joins TL17/C12; R18 is parallel to C10; C13 has a sideways ground. RF output crosses the outer supply bus without a junction dot, using the standard no-dot crossing convention in place of the tiny source line hop. M4 label is clear of actual transistor strokes inside its conservative master bounds. RC Circuit and R18 have separated visible glyphs despite their native text metric boxes overlapping; enlarged crop confirms a clear gap."
+    }
+  ],
+  "transform_validation": "Representative electrical masters passed translation, rotation and reflection tests on first build; see revisions/v1/RF_LNA.qa.json. Final revisions changed labels, frame corner radii and the supply terminal stub; original electrical devices and their transforms are unchanged."
+}
