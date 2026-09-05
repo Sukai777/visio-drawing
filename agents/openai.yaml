@@ -1,0 +1,5 @@
+interface:
+  display_name: "Visio Drawing"
+  short_description: "Editable circuits, blocks and flows with source-grounded checks"
+policy:
+  allow_implicit_invocation: true
