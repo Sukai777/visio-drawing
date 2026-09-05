@@ -1,0 +1,4548 @@
+{
+  "version": 2,
+  "canvas": [
+    1535,
+    694
+  ],
+  "inches_per_unit": 0.012,
+  "font": "Times New Roman",
+  "panels": [
+    {
+      "id": "input_feedback",
+      "at": [
+        0,
+        0
+      ],
+      "size": [
+        520,
+        694
+      ]
+    },
+    {
+      "id": "core_stability",
+      "at": [
+        520,
+        0
+      ],
+      "size": [
+        475,
+        694
+      ]
+    },
+    {
+      "id": "output_bias",
+      "at": [
+        995,
+        0
+      ],
+      "size": [
+        540,
+        694
+      ]
+    }
+  ],
+  "styles": {
+    "resistor": {
+      "span": 60,
+      "aspect": 0.44,
+      "source_reason": "Reference resistor body about 32 by 21 pixels"
+    },
+    "capacitor": {
+      "span": 34,
+      "aspect": 0.85,
+      "source_reason": "Reference plates about 29 pixels with short fixed leads"
+    },
+    "inductor": {
+      "span": 64,
+      "aspect": 0.43,
+      "source_reason": "Reference coil body about 43 by 28 pixels"
+    },
+    "nmos": {
+      "span": 66
+    },
+    "biasmos": {
+      "span": 50
+    },
+    "line_section": {
+      "span": 50
+    },
+    "ground": {
+      "span": 26
+    },
+    "pad": {
+      "span": 12
+    }
+  },
+  "components": [
+    {
+      "id": "M0_1",
+      "type": "nmos",
+      "panel": "input_feedback",
+      "at": [
+        119,
+        80
+      ],
+      "rotate": 180,
+      "weight": 2.0,
+      "color": "#595959",
+      "anchor": "G",
+      "profile": "biasmos"
+    },
+    {
+      "id": "G_M0_1",
+      "type": "ground",
+      "panel": "input_feedback",
+      "at": [
+        81.5,
+        49
+      ],
+      "rotate": 180,
+      "weight": 2.0,
+      "color": "#595959",
+      "anchor": "P"
+    },
+    {
+      "id": "M0_2",
+      "type": "nmos",
+      "panel": "core_stability",
+      "at": [
+        291,
+        623
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959",
+      "anchor": "G",
+      "flip_x": true,
+      "profile": "biasmos"
+    },
+    {
+      "id": "G_M0_2",
+      "type": "ground",
+      "panel": "core_stability",
+      "at": [
+        253.5,
+        650
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959",
+      "anchor": "P"
+    },
+    {
+      "id": "M1",
+      "type": "nmos",
+      "panel": "input_feedback",
+      "at": [
+        220,
+        389
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "G"
+    },
+    {
+      "id": "M2",
+      "type": "nmos",
+      "panel": "core_stability",
+      "at": [
+        36,
+        356
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "G"
+    },
+    {
+      "id": "M4",
+      "type": "nmos",
+      "panel": "output_bias",
+      "at": [
+        271,
+        356
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "G"
+    },
+    {
+      "id": "M3",
+      "type": "nmos",
+      "panel": "core_stability",
+      "at": [
+        368,
+        324
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "G",
+      "flip_y": true
+    },
+    {
+      "id": "R1",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "at": [
+        114,
+        139
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R2",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "at": [
+        237,
+        80
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R4",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "at": [
+        371,
+        80
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R6",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "at": [
+        495,
+        120
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R8",
+      "type": "resistor",
+      "panel": "core_stability",
+      "at": [
+        110,
+        80
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R7",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "at": [
+        508,
+        237
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "R9",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "at": [
+        484,
+        471
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "R14",
+      "type": "resistor",
+      "panel": "core_stability",
+      "at": [
+        407,
+        444
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "R18",
+      "type": "resistor",
+      "panel": "output_bias",
+      "at": [
+        225,
+        303
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "R10",
+      "type": "resistor",
+      "panel": "core_stability",
+      "at": [
+        286,
+        565
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R12",
+      "type": "resistor",
+      "panel": "core_stability",
+      "at": [
+        378,
+        623
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R13",
+      "type": "resistor",
+      "panel": "core_stability",
+      "at": [
+        468,
+        623
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R21",
+      "type": "resistor",
+      "panel": "output_bias",
+      "at": [
+        74,
+        623
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R20",
+      "type": "resistor",
+      "panel": "output_bias",
+      "at": [
+        425,
+        567
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R3",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "at": [
+        304,
+        154
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R5",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "at": [
+        452,
+        161
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R17",
+      "type": "resistor",
+      "panel": "core_stability",
+      "at": [
+        303,
+        110
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R16",
+      "type": "resistor",
+      "panel": "output_bias",
+      "at": [
+        68,
+        219
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "R19",
+      "type": "resistor",
+      "panel": "output_bias",
+      "at": [
+        410,
+        145
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "R11",
+      "type": "resistor",
+      "panel": "core_stability",
+      "at": [
+        258,
+        497
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "R15",
+      "type": "resistor",
+      "panel": "output_bias",
+      "at": [
+        193,
+        497
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "RLER",
+      "type": "resistor",
+      "panel": "core_stability",
+      "at": [
+        140,
+        502
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "C1",
+      "type": "capacitor",
+      "panel": "input_feedback",
+      "at": [
+        79,
+        389
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "C2",
+      "type": "capacitor",
+      "panel": "input_feedback",
+      "at": [
+        162,
+        279
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "C3",
+      "type": "capacitor",
+      "panel": "input_feedback",
+      "at": [
+        412,
+        356
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "C4",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "at": [
+        48,
+        237
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "C5",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "at": [
+        32,
+        120
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "C6",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "at": [
+        215,
+        324
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "C9",
+      "type": "capacitor",
+      "panel": "output_bias",
+      "at": [
+        160,
+        356
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "C10",
+      "type": "capacitor",
+      "panel": "output_bias",
+      "at": [
+        225,
+        356
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "C12",
+      "type": "capacitor",
+      "panel": "output_bias",
+      "at": [
+        440,
+        324
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "C13",
+      "type": "capacitor",
+      "panel": "output_bias",
+      "at": [
+        362,
+        567
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "Cvgc",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "at": [
+        86,
+        505
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "C7",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "at": [
+        352,
+        392
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "C8",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "at": [
+        414,
+        110
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "C11",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "at": [
+        303,
+        153
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "L1",
+      "type": "inductor",
+      "panel": "input_feedback",
+      "at": [
+        117,
+        334
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "L3",
+      "type": "inductor",
+      "panel": "core_stability",
+      "at": [
+        178,
+        156
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "L4",
+      "type": "inductor",
+      "panel": "output_bias",
+      "at": [
+        68,
+        149
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "L5",
+      "type": "inductor",
+      "panel": "output_bias",
+      "at": [
+        410,
+        217
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "L2",
+      "type": "inductor",
+      "panel": "input_feedback",
+      "at": [
+        389,
+        471
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL1",
+      "type": "line_section",
+      "panel": "input_feedback",
+      "at": [
+        171,
+        389
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL3",
+      "type": "line_section",
+      "panel": "input_feedback",
+      "at": [
+        348,
+        356
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL5",
+      "type": "line_section",
+      "panel": "input_feedback",
+      "at": [
+        506,
+        356
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL7",
+      "type": "line_section",
+      "panel": "core_stability",
+      "at": [
+        132,
+        324
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL8",
+      "type": "line_section",
+      "panel": "core_stability",
+      "at": [
+        117,
+        237
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL9",
+      "type": "line_section",
+      "panel": "core_stability",
+      "at": [
+        298,
+        324
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL14",
+      "type": "line_section",
+      "panel": "core_stability",
+      "at": [
+        498,
+        356
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL15",
+      "type": "line_section",
+      "panel": "output_bias",
+      "at": [
+        110,
+        356
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL17",
+      "type": "line_section",
+      "panel": "output_bias",
+      "at": [
+        361,
+        324
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL10",
+      "type": "line_section",
+      "panel": "core_stability",
+      "at": [
+        374,
+        536
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "TL11",
+      "type": "line_section",
+      "panel": "output_bias",
+      "at": [
+        102,
+        536
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "TL2",
+      "type": "line_section",
+      "panel": "input_feedback",
+      "at": [
+        270,
+        433
+      ],
+      "rotate": 270,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "A",
+      "align": {
+        "x": "M1.S"
+      }
+    },
+    {
+      "id": "TL4",
+      "type": "line_section",
+      "panel": "input_feedback",
+      "at": [
+        452,
+        305
+      ],
+      "rotate": 270,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL6",
+      "type": "line_section",
+      "panel": "core_stability",
+      "at": [
+        86,
+        401
+      ],
+      "rotate": 270,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "A",
+      "align": {
+        "x": "M2.S"
+      }
+    },
+    {
+      "id": "TL12",
+      "type": "line_section",
+      "panel": "core_stability",
+      "at": [
+        417,
+        220
+      ],
+      "rotate": 270,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "A",
+      "align": {
+        "x": "M3.S"
+      }
+    },
+    {
+      "id": "TL13",
+      "type": "line_section",
+      "panel": "core_stability",
+      "at": [
+        453,
+        394
+      ],
+      "rotate": 270,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "TL16",
+      "type": "line_section",
+      "panel": "output_bias",
+      "at": [
+        321,
+        391
+      ],
+      "rotate": 270,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "A",
+      "align": {
+        "x": "M4.S"
+      }
+    },
+    {
+      "id": "TL18",
+      "type": "line_section",
+      "panel": "output_bias",
+      "at": [
+        475,
+        514
+      ],
+      "rotate": 270,
+      "weight": 2.0,
+      "color": "#595959"
+    },
+    {
+      "id": "G_C2",
+      "type": "ground",
+      "panel": "input_feedback",
+      "at": [
+        180,
+        279
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "P"
+    },
+    {
+      "id": "G_C5",
+      "type": "ground",
+      "panel": "core_stability",
+      "at": [
+        53,
+        120
+      ],
+      "rotate": 90,
+      "weight": 2.0,
+      "color": "#595959",
+      "anchor": "P"
+    },
+    {
+      "id": "G_C13",
+      "type": "ground",
+      "panel": "output_bias",
+      "at": [
+        341,
+        567
+      ],
+      "rotate": 270,
+      "weight": 2.0,
+      "color": "#595959",
+      "anchor": "P"
+    },
+    {
+      "id": "G_M1",
+      "type": "ground",
+      "panel": "input_feedback",
+      "at": [
+        270,
+        501
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "P"
+    },
+    {
+      "id": "G_Cvgc",
+      "type": "ground",
+      "panel": "core_stability",
+      "at": [
+        86,
+        531
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "P"
+    },
+    {
+      "id": "G_RLER",
+      "type": "ground",
+      "panel": "core_stability",
+      "at": [
+        140,
+        531
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "P"
+    },
+    {
+      "id": "G_C8",
+      "type": "ground",
+      "panel": "core_stability",
+      "at": [
+        414,
+        135
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959",
+      "anchor": "P"
+    },
+    {
+      "id": "G_C11",
+      "type": "ground",
+      "panel": "core_stability",
+      "at": [
+        303,
+        175
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#595959",
+      "anchor": "P"
+    },
+    {
+      "id": "G_TL12",
+      "type": "ground",
+      "panel": "core_stability",
+      "at": [
+        417,
+        216
+      ],
+      "rotate": 180,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "P"
+    },
+    {
+      "id": "G_M4",
+      "type": "ground",
+      "panel": "output_bias",
+      "at": [
+        321,
+        443
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808",
+      "anchor": "P"
+    },
+    {
+      "id": "RF_IN",
+      "type": "pad",
+      "panel": "input_feedback",
+      "at": [
+        39,
+        389
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    },
+    {
+      "id": "RF_OUT",
+      "type": "pad",
+      "panel": "output_bias",
+      "at": [
+        499,
+        324
+      ],
+      "rotate": 0,
+      "weight": 2.0,
+      "color": "#080808"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "J_SUP0",
+      "panel": "input_feedback",
+      "at": [
+        154.0,
+        80.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_R2",
+      "panel": "input_feedback",
+      "at": [
+        304.0,
+        80.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_R4",
+      "panel": "input_feedback",
+      "at": [
+        452.0,
+        80.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_VDD",
+      "panel": "core_stability",
+      "at": [
+        178.0,
+        80.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_R17",
+      "panel": "core_stability",
+      "at": [
+        303.0,
+        80.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_C8",
+      "panel": "core_stability",
+      "at": [
+        414.0,
+        80.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_L4",
+      "panel": "output_bias",
+      "at": [
+        68.0,
+        80.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_R19",
+      "panel": "output_bias",
+      "at": [
+        410.0,
+        80.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_IMN",
+      "panel": "input_feedback",
+      "at": [
+        117,
+        389
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_IMN_TOP",
+      "panel": "input_feedback",
+      "at": [
+        117,
+        279
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_FB_LEFT",
+      "panel": "input_feedback",
+      "at": [
+        452.0,
+        237.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_M2_OUT",
+      "panel": "core_stability",
+      "at": [
+        178.0,
+        324.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_VGC",
+      "panel": "core_stability",
+      "at": [
+        86,
+        471
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_M3_GATE",
+      "panel": "core_stability",
+      "at": [
+        353.0,
+        324.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_M3_SOURCE",
+      "panel": "core_stability",
+      "at": [
+        453.0,
+        356.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_LR_LEFT",
+      "panel": "output_bias",
+      "at": [
+        68.0,
+        356.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_RC_LEFT",
+      "panel": "output_bias",
+      "at": [
+        193.0,
+        356.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_RC_RIGHT",
+      "panel": "output_bias",
+      "at": [
+        257.0,
+        356.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_RF_OUT",
+      "panel": "output_bias",
+      "at": [
+        410.0,
+        324.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_BOT_A",
+      "panel": "core_stability",
+      "at": [
+        326.0,
+        623.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_BOT_B",
+      "panel": "core_stability",
+      "at": [
+        425.0,
+        623.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_BOT_C",
+      "panel": "output_bias",
+      "at": [
+        34.0,
+        623.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_R20",
+      "panel": "output_bias",
+      "at": [
+        475.0,
+        567.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_R6",
+      "panel": "input_feedback",
+      "at": [
+        452.0,
+        120.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_M1_D",
+      "panel": "input_feedback",
+      "at": [
+        311.0,
+        356.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_FB_MAIN",
+      "panel": "input_feedback",
+      "at": [
+        452.0,
+        356.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_FB_OUT",
+      "panel": "core_stability",
+      "at": [
+        178.0,
+        237.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "J_C6_OUT",
+      "panel": "core_stability",
+      "at": [
+        258.0,
+        324.0
+      ],
+      "diameter": 5,
+      "color": "#111111"
+    },
+    {
+      "id": "VDD_TOP",
+      "panel": "core_stability",
+      "at": [
+        178,
+        64
+      ],
+      "diameter": 0.1,
+      "hidden": true
+    },
+    {
+      "id": "VDD_LEFT",
+      "panel": "core_stability",
+      "at": [
+        166,
+        64
+      ],
+      "diameter": 0.1,
+      "hidden": true
+    },
+    {
+      "id": "VDD_RIGHT",
+      "panel": "core_stability",
+      "at": [
+        190,
+        64
+      ],
+      "diameter": 0.1,
+      "hidden": true
+    }
+  ],
+  "wires": [
+    {
+      "id": "w1",
+      "from": "J_VDD.P",
+      "to": "VDD_TOP.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w2",
+      "from": "VDD_LEFT.P",
+      "to": "VDD_TOP.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#595959"
+    },
+    {
+      "id": "w3",
+      "from": "VDD_TOP.P",
+      "to": "VDD_RIGHT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#595959"
+    },
+    {
+      "id": "w4",
+      "from": "M0_1.S",
+      "to": "G_M0_1.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w5",
+      "from": "M0_2.S",
+      "to": "G_M0_2.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w6",
+      "from": "TL2.B",
+      "to": "G_M1.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w7",
+      "from": "TL6.B",
+      "to": "J_VGC.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w8",
+      "from": "Cvgc.B",
+      "to": "G_Cvgc.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w9",
+      "from": "RLER.B",
+      "to": "G_RLER.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w10",
+      "from": "C11.B",
+      "to": "G_C11.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w11",
+      "from": "C8.B",
+      "to": "G_C8.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w12",
+      "from": "TL12.A",
+      "to": "G_TL12.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w13",
+      "from": "TL16.B",
+      "to": "G_M4.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w14",
+      "from": "C2.B",
+      "to": "G_C2.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w15",
+      "from": "C5.B",
+      "to": "G_C5.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w16",
+      "from": "C13.A",
+      "to": "G_C13.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w17",
+      "from": "M0_1.G",
+      "to": "J_SUP0.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w18",
+      "from": "R1.B",
+      "to": "J_SUP0.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w19",
+      "from": "R2.A",
+      "to": "J_SUP0.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w20",
+      "from": "M0_1.D",
+      "to": "R1.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          81.5,
+          139
+        ]
+      ]
+    },
+    {
+      "id": "w21",
+      "from": "R2.B",
+      "to": "J_R2.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w22",
+      "from": "R3.A",
+      "to": "J_R2.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w23",
+      "from": "R4.A",
+      "to": "J_R2.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w24",
+      "from": "R4.B",
+      "to": "J_R4.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w25",
+      "from": "R8.A",
+      "to": "J_R4.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w26",
+      "from": "J_R4.P",
+      "to": "J_R6.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w27",
+      "from": "R5.A",
+      "to": "J_R6.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w28",
+      "from": "R6.A",
+      "to": "J_R6.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w29",
+      "from": "R6.B",
+      "to": "C5.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w30",
+      "from": "R8.B",
+      "to": "J_VDD.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w31",
+      "from": "L3.A",
+      "to": "J_VDD.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w32",
+      "from": "J_VDD.P",
+      "to": "J_R17.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w33",
+      "from": "J_R17.P",
+      "to": "J_C8.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w34",
+      "from": "J_C8.P",
+      "to": "J_L4.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w35",
+      "from": "J_L4.P",
+      "to": "J_R19.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w36",
+      "from": "R17.A",
+      "to": "J_R17.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w37",
+      "from": "C8.A",
+      "to": "J_C8.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w38",
+      "from": "L4.A",
+      "to": "J_L4.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w39",
+      "from": "R19.A",
+      "to": "J_R19.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w40",
+      "from": "R17.B",
+      "to": "C11.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w41",
+      "from": "L4.B",
+      "to": "R16.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w42",
+      "from": "R19.B",
+      "to": "L5.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w43",
+      "from": "J_R19.P",
+      "to": "TL18.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          1470,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "w44",
+      "from": "R3.B",
+      "to": "J_IMN_TOP.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          304,
+          229
+        ],
+        [
+          117,
+          229
+        ]
+      ]
+    },
+    {
+      "id": "w45",
+      "from": "RF_IN.B",
+      "to": "C1.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w46",
+      "from": "C1.B",
+      "to": "J_IMN.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w47",
+      "from": "L1.B",
+      "to": "J_IMN.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w48",
+      "from": "TL1.A",
+      "to": "J_IMN.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w49",
+      "from": "L1.A",
+      "to": "J_IMN_TOP.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w50",
+      "from": "C2.A",
+      "to": "J_IMN_TOP.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w51",
+      "from": "TL1.B",
+      "to": "M1.G",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w52",
+      "from": "M1.S",
+      "to": "TL2.A",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w53",
+      "from": "M1.D",
+      "to": "J_M1_D.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w54",
+      "from": "J_M1_D.P",
+      "to": "TL3.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w55",
+      "from": "J_M1_D.P",
+      "to": "L2.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          311,
+          471
+        ]
+      ]
+    },
+    {
+      "id": "w56",
+      "from": "TL3.B",
+      "to": "C3.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w57",
+      "from": "C3.B",
+      "to": "J_FB_MAIN.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w58",
+      "from": "TL5.A",
+      "to": "J_FB_MAIN.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w59",
+      "from": "TL4.B",
+      "to": "J_FB_MAIN.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w60",
+      "from": "R5.B",
+      "to": "J_FB_LEFT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w61",
+      "from": "TL4.A",
+      "to": "J_FB_LEFT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w62",
+      "from": "R7.A",
+      "to": "J_FB_LEFT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w63",
+      "from": "TL5.B",
+      "to": "M2.G",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w64",
+      "from": "M2.S",
+      "to": "TL6.A",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w65",
+      "from": "L2.B",
+      "to": "R9.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w66",
+      "from": "R9.B",
+      "to": "J_VGC.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w67",
+      "from": "Cvgc.A",
+      "to": "J_VGC.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w68",
+      "from": "RLER.A",
+      "to": "J_VGC.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w69",
+      "from": "M2.D",
+      "to": "TL7.A",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w70",
+      "from": "TL7.B",
+      "to": "J_M2_OUT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w71",
+      "from": "C6.A",
+      "to": "J_M2_OUT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w72",
+      "from": "L3.B",
+      "to": "J_FB_OUT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w73",
+      "from": "TL8.B",
+      "to": "J_FB_OUT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w74",
+      "from": "J_FB_OUT.P",
+      "to": "J_M2_OUT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w75",
+      "from": "R7.B",
+      "to": "C4.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w76",
+      "from": "C4.B",
+      "to": "TL8.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w77",
+      "from": "C6.B",
+      "to": "J_C6_OUT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w78",
+      "from": "TL9.A",
+      "to": "J_C6_OUT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w79",
+      "from": "J_C6_OUT.P",
+      "to": "R11.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w80",
+      "from": "TL9.B",
+      "to": "J_M3_GATE.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w81",
+      "from": "M3.G",
+      "to": "J_M3_GATE.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w82",
+      "from": "C7.A",
+      "to": "J_M3_GATE.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w83",
+      "from": "M3.S",
+      "to": "TL12.B",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w84",
+      "from": "M3.D",
+      "to": "J_M3_SOURCE.P",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w85",
+      "from": "TL13.A",
+      "to": "J_M3_SOURCE.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w86",
+      "from": "TL14.A",
+      "to": "J_M3_SOURCE.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w87",
+      "from": "C7.B",
+      "to": "R14.A",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          872,
+          444
+        ]
+      ]
+    },
+    {
+      "id": "w88",
+      "from": "R14.B",
+      "to": "TL13.B",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          973,
+          444
+        ]
+      ]
+    },
+    {
+      "id": "w89",
+      "from": "TL14.B",
+      "to": "J_LR_LEFT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w90",
+      "from": "TL15.A",
+      "to": "J_LR_LEFT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w91",
+      "from": "R16.B",
+      "to": "J_LR_LEFT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w92",
+      "from": "TL15.B",
+      "to": "C9.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w93",
+      "from": "C9.B",
+      "to": "J_RC_LEFT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w94",
+      "from": "C10.A",
+      "to": "J_RC_LEFT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w95",
+      "from": "R18.A",
+      "to": "J_RC_LEFT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w96",
+      "from": "R15.A",
+      "to": "J_RC_LEFT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w97",
+      "from": "C10.B",
+      "to": "J_RC_RIGHT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w98",
+      "from": "R18.B",
+      "to": "J_RC_RIGHT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w99",
+      "from": "M4.G",
+      "to": "J_RC_RIGHT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w100",
+      "from": "M4.D",
+      "to": "TL17.A",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w101",
+      "from": "M4.S",
+      "to": "TL16.A",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w102",
+      "from": "TL17.B",
+      "to": "J_RF_OUT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w103",
+      "from": "C12.A",
+      "to": "J_RF_OUT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w104",
+      "from": "L5.B",
+      "to": "J_RF_OUT.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w105",
+      "from": "C12.B",
+      "to": "RF_OUT.A",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w106",
+      "from": "R11.B",
+      "to": "TL10.A",
+      "kind": "wire",
+      "route": "vh",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          778,
+          536
+        ]
+      ]
+    },
+    {
+      "id": "w107",
+      "from": "R12.B",
+      "to": "J_BOT_B.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w108",
+      "from": "R13.A",
+      "to": "J_BOT_B.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w109",
+      "from": "TL10.B",
+      "to": "J_BOT_B.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          945,
+          536
+        ]
+      ]
+    },
+    {
+      "id": "w110",
+      "from": "R12.A",
+      "to": "J_BOT_A.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w111",
+      "from": "M0_2.G",
+      "to": "J_BOT_A.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w112",
+      "from": "R10.B",
+      "to": "J_BOT_A.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          846,
+          565
+        ]
+      ]
+    },
+    {
+      "id": "w113",
+      "from": "R10.A",
+      "to": "M0_2.D",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          773.5,
+          565
+        ]
+      ]
+    },
+    {
+      "id": "w114",
+      "from": "R13.B",
+      "to": "J_BOT_C.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w115",
+      "from": "R21.A",
+      "to": "J_BOT_C.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w116",
+      "from": "TL11.A",
+      "to": "J_BOT_C.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          1029,
+          536
+        ]
+      ]
+    },
+    {
+      "id": "w117",
+      "from": "TL11.B",
+      "to": "R15.B",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          1188,
+          536
+        ]
+      ]
+    },
+    {
+      "id": "w118",
+      "from": "R21.B",
+      "to": "J_R20.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111",
+      "panel": "input_feedback",
+      "via": [
+        [
+          1470,
+          623
+        ]
+      ]
+    },
+    {
+      "id": "w119",
+      "from": "TL18.B",
+      "to": "J_R20.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w120",
+      "from": "R20.B",
+      "to": "J_R20.P",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    },
+    {
+      "id": "w121",
+      "from": "R20.A",
+      "to": "C13.B",
+      "kind": "wire",
+      "route": "hv",
+      "weight": 1.2,
+      "color": "#111111"
+    }
+  ],
+  "labels": [
+    {
+      "panel": "input_feedback",
+      "at": [
+        27,
+        64
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "M0_1",
+      "runs": [
+        {
+          "text": "M"
+        },
+        {
+          "text": "0_1",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        96,
+        153
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R1",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "1",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        220,
+        92
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R2",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "2",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        262,
+        140
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R3",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "3",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        357,
+        92
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R4",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "4",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        408,
+        146
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R5",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "5",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        478,
+        133
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R6",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "6",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        17,
+        133
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "C5",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "5",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        97,
+        92
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R8",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "8",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        73,
+        321
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "L1",
+      "runs": [
+        {
+          "text": "L"
+        },
+        {
+          "text": "1",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        65,
+        406
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "C1",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "1",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        146,
+        295
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "C2",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "2",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        147,
+        405
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL1",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "1",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        271,
+        373
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "M1",
+      "runs": [
+        {
+          "text": "M"
+        },
+        {
+          "text": "1",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        208,
+        445
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL2",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "2",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        324,
+        373
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL3",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "3",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        396,
+        373
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "C3",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "3",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        395,
+        290
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL4",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "4",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        482,
+        373
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL5",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "5",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        492,
+        250
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "R7",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "7",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        34,
+        250
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "C4",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "4",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        94,
+        250
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL8",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "8",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        373,
+        487
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "L2",
+      "runs": [
+        {
+          "text": "L"
+        },
+        {
+          "text": "2",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        471,
+        487
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "R9",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "9",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        80,
+        339
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "M2",
+      "runs": [
+        {
+          "text": "M"
+        },
+        {
+          "text": "2",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        25,
+        412
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL6",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "6",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        112,
+        339
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL7",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "7",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        25,
+        488
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "Cvgc",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "vgc",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        155,
+        488
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "RLER",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "LER",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        134,
+        142
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "L3",
+      "runs": [
+        {
+          "text": "L"
+        },
+        {
+          "text": "3",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        251,
+        96
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R17",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "17",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        249,
+        142
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "C11",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "11",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        369,
+        96
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "C8",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "8",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        202,
+        339
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "C6",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "6",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        273,
+        339
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL9",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "9",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        418,
+        308
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "M3",
+      "runs": [
+        {
+          "text": "M"
+        },
+        {
+          "text": "3",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        350,
+        231
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL12",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "12",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        388,
+        376
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL13",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "13",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        305,
+        377
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "C7",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "7",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        388,
+        403
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "R14",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "14",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        472,
+        373
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL14",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "14",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        21,
+        137
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "L4",
+      "runs": [
+        {
+          "text": "L"
+        },
+        {
+          "text": "4",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        18,
+        205
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "R16",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "16",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        86,
+        373
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL15",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "15",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        145,
+        373
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "C9",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "9",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        209,
+        373
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "C10",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "10",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        206,
+        262
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "R18",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "18",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        311,
+        339
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "M4",
+      "runs": [
+        {
+          "text": "M"
+        },
+        {
+          "text": "4",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        335,
+        405
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL16",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "16",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        335,
+        286
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "TL17",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "17",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        360,
+        137
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "R19",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "19",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        363,
+        205
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "L5",
+      "runs": [
+        {
+          "text": "L"
+        },
+        {
+          "text": "5",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        420,
+        339
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "C12",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "12",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        271,
+        480
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R11",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "11",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        267,
+        573
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R10",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "10",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        217,
+        607
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "M0_2",
+      "runs": [
+        {
+          "text": "M"
+        },
+        {
+          "text": "0_2",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        350,
+        547
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "TL10",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "10",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        360,
+        636
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R12",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "12",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        451,
+        636
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R13",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "13",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        58,
+        636
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R21",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "21",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        77,
+        547
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "TL11",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "11",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        142,
+        480
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R15",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "15",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        410,
+        507
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "TL18",
+      "runs": [
+        {
+          "text": "TL"
+        },
+        {
+          "text": "18",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        408,
+        580
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "R20",
+      "runs": [
+        {
+          "text": "R"
+        },
+        {
+          "text": "20",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        346,
+        580
+      ],
+      "w": 65,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "C13",
+      "runs": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "13",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        15,
+        344
+      ],
+      "w": 75,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "RFin",
+      "runs": [
+        {
+          "text": "RF"
+        },
+        {
+          "text": "in",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        454,
+        276
+      ],
+      "w": 77,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "RFout",
+      "runs": [
+        {
+          "text": "RF"
+        },
+        {
+          "text": "out",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        160,
+        34
+      ],
+      "w": 66,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "VDD",
+      "runs": [
+        {
+          "text": "V"
+        },
+        {
+          "text": "DD",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        378,
+        24
+      ],
+      "w": 190,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "Bias Network"
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        248,
+        645
+      ],
+      "w": 200,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#595959",
+      "text": "Bias Network"
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        486,
+        192
+      ],
+      "w": 215,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#9e392f",
+      "text": "R-L-C Feedback"
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        73,
+        438
+      ],
+      "w": 165,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#8063a6",
+      "text": "T-type IMN"
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        385,
+        521
+      ],
+      "w": 125,
+      "h": 57,
+      "font_size": 19,
+      "style": 3,
+      "color": "#516a30",
+      "text": "Current-Reuse",
+      "runs": [
+        {
+          "text": "Current-"
+        },
+        {
+          "text": "Reuse"
+        }
+      ]
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        306,
+        477
+      ],
+      "w": 63,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "IM1",
+      "runs": [
+        {
+          "text": "I"
+        },
+        {
+          "text": "M1",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        119,
+        439
+      ],
+      "w": 72,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "ILER",
+      "runs": [
+        {
+          "text": "I"
+        },
+        {
+          "text": "LER",
+          "sub": true
+        }
+      ]
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        36,
+        556
+      ],
+      "w": 82,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#9e392f",
+      "text": "VGC"
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        131,
+        556
+      ],
+      "w": 72,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#b68b00",
+      "text": "LER"
+    },
+    {
+      "panel": "core_stability",
+      "at": [
+        456,
+        264
+      ],
+      "w": 174,
+      "h": 78,
+      "font_size": 17,
+      "style": 3,
+      "color": "#238aa3",
+      "text": "Stability Enhancement Circuit"
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        171,
+        171
+      ],
+      "w": 180,
+      "h": 28,
+      "font_size": 19,
+      "style": 3,
+      "color": "#e96100",
+      "text": "LR Circuit"
+    },
+    {
+      "panel": "output_bias",
+      "at": [
+        200,
+        216
+      ],
+      "w": 70,
+      "h": 54,
+      "font_size": 17,
+      "style": 3,
+      "color": "#238aa3",
+      "text": "RC Circuit"
+    },
+    {
+      "panel": "input_feedback",
+      "at": [
+        49,
+        610
+      ],
+      "w": 330,
+      "h": 38,
+      "font_size": 19,
+      "style": 3,
+      "color": "#080808",
+      "text": "M0_1, M0_2: 2×25 μm",
+      "runs": [
+        {
+          "text": "M"
+        },
+        {
+          "text": "0_1",
+          "sub": true
+        },
+        {
+          "text": ", M"
+        },
+        {
+          "text": "0_2",
+          "sub": true
+        },
+        {
+          "text": ": 2×25 μm"
+        }
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        64,
+        261
+      ],
+      "w": 143,
+      "h": 173,
+      "fill": "#dcd4e6",
+      "color": "#dcd4e6",
+      "purpose": "T-type IMN",
+      "rounding": 12
+    },
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        481,
+        218
+      ],
+      "w": 191,
+      "h": 62,
+      "fill": "#d88e89",
+      "color": "#d88e89",
+      "purpose": "R-L-C Feedback",
+      "rounding": 12
+    },
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        350,
+        450
+      ],
+      "w": 167,
+      "h": 66,
+      "fill": "#c7d7a1",
+      "color": "#c7d7a1",
+      "purpose": "Current reuse",
+      "rounding": 12
+    },
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        542,
+        474
+      ],
+      "w": 88,
+      "h": 83,
+      "fill": "#d88e89",
+      "color": "#d88e89",
+      "purpose": "VGC",
+      "rounding": 12
+    },
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        632,
+        440
+      ],
+      "w": 93,
+      "h": 117,
+      "fill": "#ffe495",
+      "color": "#ffe495",
+      "purpose": "LER",
+      "rounding": 12
+    },
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        823,
+        359
+      ],
+      "w": 170,
+      "h": 99,
+      "fill": "#b4dce5",
+      "color": "#b4dce5",
+      "purpose": "Stability feedback",
+      "rounding": 12
+    },
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        1181,
+        268
+      ],
+      "w": 79,
+      "h": 130,
+      "fill": "#b4dce5",
+      "color": "#b4dce5",
+      "purpose": "Parallel RC",
+      "rounding": 12
+    },
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        1011,
+        122
+      ],
+      "w": 74,
+      "h": 125,
+      "fill": "#ef6c00",
+      "color": "#ef6c00",
+      "purpose": "Left LR",
+      "rounding": 12
+    },
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        1349,
+        122
+      ],
+      "w": 79,
+      "h": 125,
+      "fill": "#ef6c00",
+      "color": "#ef6c00",
+      "purpose": "Right LR",
+      "rounding": 12
+    },
+    {
+      "kind": "arrow",
+      "panel": "input_feedback",
+      "points": [
+        [
+          1164,
+          185
+        ],
+        [
+          1085,
+          185
+        ]
+      ],
+      "color": "#ef6c00",
+      "purpose": "LR left callout"
+    },
+    {
+      "kind": "arrow",
+      "panel": "input_feedback",
+      "points": [
+        [
+          1290,
+          185
+        ],
+        [
+          1349,
+          185
+        ]
+      ],
+      "color": "#ef6c00",
+      "purpose": "LR right callout"
+    },
+    {
+      "kind": "arrow",
+      "panel": "input_feedback",
+      "points": [
+        [
+          978,
+          307
+        ],
+        [
+          907,
+          358
+        ]
+      ],
+      "color": "#238aa3",
+      "purpose": "Stability feedback callout"
+    },
+    {
+      "kind": "arrow",
+      "panel": "input_feedback",
+      "points": [
+        [
+          1105,
+          305
+        ],
+        [
+          1181,
+          331
+        ]
+      ],
+      "color": "#238aa3",
+      "purpose": "Parallel RC callout"
+    },
+    {
+      "kind": "arrow",
+      "panel": "input_feedback",
+      "points": [
+        [
+          350,
+          471
+        ],
+        [
+          311,
+          471
+        ]
+      ],
+      "color": "#111111",
+      "purpose": "M1 current direction"
+    },
+    {
+      "kind": "arrow",
+      "panel": "input_feedback",
+      "points": [
+        [
+          607,
+          471
+        ],
+        [
+          658,
+          471
+        ]
+      ],
+      "color": "#111111",
+      "purpose": "LER current direction"
+    },
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        16,
+        18
+      ],
+      "w": 962,
+      "h": 175,
+      "fill": "#f0f0f0",
+      "color": "#f0f0f0",
+      "purpose": "Upper bias network",
+      "rounding": 0
+    },
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        735,
+        471
+      ],
+      "w": 775,
+      "h": 212,
+      "fill": "#f0f0f0",
+      "color": "#f0f0f0",
+      "purpose": "Lower bias network",
+      "rounding": 0
+    },
+    {
+      "kind": "frame",
+      "panel": "input_feedback",
+      "at": [
+        16,
+        18
+      ],
+      "w": 1494,
+      "h": 665,
+      "fill": "#fcebdc",
+      "color": "#fcebdc",
+      "purpose": "RF circuit page background",
+      "rounding": 0
+    }
+  ],
+  "transform_test_ids": [
+    "M0_1",
+    "M0_2",
+    "M3",
+    "C1",
+    "L2",
+    "TL13"
+  ]
+}

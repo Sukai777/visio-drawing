@@ -1,0 +1,1602 @@
+{
+  "source": "reference.png",
+  "reviewed_from_source": true,
+  "panels": [
+    {
+      "id": "input_feedback",
+      "bbox": [
+        0,
+        0,
+        520,
+        694
+      ]
+    },
+    {
+      "id": "core_stability",
+      "bbox": [
+        520,
+        0,
+        475,
+        694
+      ]
+    },
+    {
+      "id": "output_bias",
+      "bbox": [
+        995,
+        0,
+        540,
+        694
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "id": "M0_1",
+      "type": "nmos",
+      "panel": "input_feedback",
+      "bbox": [
+        75,
+        51,
+        49,
+        63
+      ]
+    },
+    {
+      "id": "G_M0_1",
+      "type": "ground",
+      "panel": "input_feedback",
+      "bbox": [
+        68,
+        29,
+        29,
+        24
+      ]
+    },
+    {
+      "id": "R1",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "bbox": [
+        83,
+        126,
+        54,
+        28
+      ]
+    },
+    {
+      "id": "R2",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "bbox": [
+        216,
+        67,
+        42,
+        27
+      ]
+    },
+    {
+      "id": "R3",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "bbox": [
+        290,
+        135,
+        28,
+        50
+      ]
+    },
+    {
+      "id": "R4",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "bbox": [
+        351,
+        67,
+        40,
+        27
+      ]
+    },
+    {
+      "id": "R5",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "bbox": [
+        439,
+        145,
+        28,
+        50
+      ]
+    },
+    {
+      "id": "R6",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "bbox": [
+        477,
+        107,
+        43,
+        26
+      ]
+    },
+    {
+      "id": "C5",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "bbox": [
+        541,
+        102,
+        47,
+        35
+      ]
+    },
+    {
+      "id": "R8",
+      "type": "resistor",
+      "panel": "core_stability",
+      "bbox": [
+        610,
+        67,
+        39,
+        27
+      ]
+    },
+    {
+      "id": "L1",
+      "type": "inductor",
+      "panel": "input_feedback",
+      "bbox": [
+        99,
+        312,
+        36,
+        55
+      ]
+    },
+    {
+      "id": "RF_IN",
+      "type": "pad",
+      "panel": "input_feedback",
+      "bbox": [
+        31,
+        380,
+        18,
+        18
+      ]
+    },
+    {
+      "id": "C1",
+      "type": "capacitor",
+      "panel": "input_feedback",
+      "bbox": [
+        65,
+        371,
+        43,
+        35
+      ]
+    },
+    {
+      "id": "C2",
+      "type": "capacitor",
+      "panel": "input_feedback",
+      "bbox": [
+        145,
+        261,
+        56,
+        37
+      ]
+    },
+    {
+      "id": "TL1",
+      "type": "line_section",
+      "panel": "input_feedback",
+      "bbox": [
+        144,
+        377,
+        55,
+        24
+      ]
+    },
+    {
+      "id": "M1",
+      "type": "nmos",
+      "panel": "input_feedback",
+      "bbox": [
+        236,
+        340,
+        62,
+        92
+      ]
+    },
+    {
+      "id": "TL2",
+      "type": "line_section",
+      "panel": "input_feedback",
+      "bbox": [
+        258,
+        431,
+        25,
+        54
+      ]
+    },
+    {
+      "id": "G_M1",
+      "type": "ground",
+      "panel": "input_feedback",
+      "bbox": [
+        258,
+        500,
+        28,
+        23
+      ]
+    },
+    {
+      "id": "TL3",
+      "type": "line_section",
+      "panel": "input_feedback",
+      "bbox": [
+        321,
+        344,
+        55,
+        25
+      ]
+    },
+    {
+      "id": "C3",
+      "type": "capacitor",
+      "panel": "input_feedback",
+      "bbox": [
+        394,
+        340,
+        45,
+        35
+      ]
+    },
+    {
+      "id": "TL4",
+      "type": "line_section",
+      "panel": "input_feedback",
+      "bbox": [
+        438,
+        278,
+        25,
+        55
+      ]
+    },
+    {
+      "id": "TL5",
+      "type": "line_section",
+      "panel": "input_feedback",
+      "bbox": [
+        477,
+        344,
+        56,
+        25
+      ]
+    },
+    {
+      "id": "R7",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "bbox": [
+        487,
+        222,
+        44,
+        28
+      ]
+    },
+    {
+      "id": "C4",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "bbox": [
+        552,
+        219,
+        47,
+        35
+      ]
+    },
+    {
+      "id": "TL8",
+      "type": "line_section",
+      "panel": "core_stability",
+      "bbox": [
+        610,
+        225,
+        56,
+        24
+      ]
+    },
+    {
+      "id": "L2",
+      "type": "inductor",
+      "panel": "input_feedback",
+      "bbox": [
+        364,
+        456,
+        55,
+        31
+      ]
+    },
+    {
+      "id": "R9",
+      "type": "resistor",
+      "panel": "input_feedback",
+      "bbox": [
+        465,
+        456,
+        44,
+        29
+      ]
+    },
+    {
+      "id": "M2",
+      "type": "nmos",
+      "panel": "core_stability",
+      "bbox": [
+        572,
+        309,
+        60,
+        91
+      ]
+    },
+    {
+      "id": "TL6",
+      "type": "line_section",
+      "panel": "core_stability",
+      "bbox": [
+        594,
+        399,
+        25,
+        54
+      ]
+    },
+    {
+      "id": "TL7",
+      "type": "line_section",
+      "panel": "core_stability",
+      "bbox": [
+        625,
+        311,
+        55,
+        25
+      ]
+    },
+    {
+      "id": "Cvgc",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "bbox": [
+        594,
+        488,
+        39,
+        50
+      ]
+    },
+    {
+      "id": "G_Cvgc",
+      "type": "ground",
+      "panel": "core_stability",
+      "bbox": [
+        594,
+        540,
+        28,
+        24
+      ]
+    },
+    {
+      "id": "RLER",
+      "type": "resistor",
+      "panel": "core_stability",
+      "bbox": [
+        645,
+        478,
+        30,
+        55
+      ]
+    },
+    {
+      "id": "G_RLER",
+      "type": "ground",
+      "panel": "core_stability",
+      "bbox": [
+        649,
+        540,
+        28,
+        24
+      ]
+    },
+    {
+      "id": "L3",
+      "type": "inductor",
+      "panel": "core_stability",
+      "bbox": [
+        682,
+        131,
+        33,
+        57
+      ]
+    },
+    {
+      "id": "R17",
+      "type": "resistor",
+      "panel": "core_stability",
+      "bbox": [
+        810,
+        91,
+        28,
+        49
+      ]
+    },
+    {
+      "id": "C11",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "bbox": [
+        808,
+        147,
+        40,
+        48
+      ]
+    },
+    {
+      "id": "G_C11",
+      "type": "ground",
+      "panel": "core_stability",
+      "bbox": [
+        810,
+        184,
+        28,
+        24
+      ]
+    },
+    {
+      "id": "C8",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "bbox": [
+        918,
+        91,
+        42,
+        48
+      ]
+    },
+    {
+      "id": "G_C8",
+      "type": "ground",
+      "panel": "core_stability",
+      "bbox": [
+        921,
+        145,
+        28,
+        24
+      ]
+    },
+    {
+      "id": "C6",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "bbox": [
+        718,
+        307,
+        48,
+        35
+      ]
+    },
+    {
+      "id": "TL9",
+      "type": "line_section",
+      "panel": "core_stability",
+      "bbox": [
+        790,
+        312,
+        55,
+        24
+      ]
+    },
+    {
+      "id": "M3",
+      "type": "nmos",
+      "panel": "core_stability",
+      "bbox": [
+        903,
+        294,
+        61,
+        91
+      ]
+    },
+    {
+      "id": "TL12",
+      "type": "line_section",
+      "panel": "core_stability",
+      "bbox": [
+        924,
+        219,
+        25,
+        54
+      ]
+    },
+    {
+      "id": "G_TL12",
+      "type": "ground",
+      "panel": "core_stability",
+      "bbox": [
+        923,
+        190,
+        28,
+        24
+      ]
+    },
+    {
+      "id": "TL13",
+      "type": "line_section",
+      "panel": "core_stability",
+      "bbox": [
+        960,
+        365,
+        25,
+        55
+      ]
+    },
+    {
+      "id": "C7",
+      "type": "capacitor",
+      "panel": "core_stability",
+      "bbox": [
+        858,
+        373,
+        42,
+        49
+      ]
+    },
+    {
+      "id": "R14",
+      "type": "resistor",
+      "panel": "core_stability",
+      "bbox": [
+        907,
+        431,
+        46,
+        28
+      ]
+    },
+    {
+      "id": "TL14",
+      "type": "line_section",
+      "panel": "core_stability",
+      "bbox": [
+        989,
+        344,
+        56,
+        25
+      ]
+    },
+    {
+      "id": "L4",
+      "type": "inductor",
+      "panel": "output_bias",
+      "bbox": [
+        1045,
+        122,
+        36,
+        57
+      ]
+    },
+    {
+      "id": "R16",
+      "type": "resistor",
+      "panel": "output_bias",
+      "bbox": [
+        1049,
+        197,
+        30,
+        48
+      ]
+    },
+    {
+      "id": "TL15",
+      "type": "line_section",
+      "panel": "output_bias",
+      "bbox": [
+        1079,
+        344,
+        55,
+        25
+      ]
+    },
+    {
+      "id": "C9",
+      "type": "capacitor",
+      "panel": "output_bias",
+      "bbox": [
+        1138,
+        339,
+        47,
+        35
+      ]
+    },
+    {
+      "id": "C10",
+      "type": "capacitor",
+      "panel": "output_bias",
+      "bbox": [
+        1206,
+        339,
+        47,
+        36
+      ]
+    },
+    {
+      "id": "R18",
+      "type": "resistor",
+      "panel": "output_bias",
+      "bbox": [
+        1203,
+        289,
+        50,
+        27
+      ]
+    },
+    {
+      "id": "M4",
+      "type": "nmos",
+      "panel": "output_bias",
+      "bbox": [
+        1282,
+        310,
+        60,
+        91
+      ]
+    },
+    {
+      "id": "TL16",
+      "type": "line_section",
+      "panel": "output_bias",
+      "bbox": [
+        1304,
+        400,
+        25,
+        55
+      ]
+    },
+    {
+      "id": "G_M4",
+      "type": "ground",
+      "panel": "output_bias",
+      "bbox": [
+        1305,
+        445,
+        28,
+        24
+      ]
+    },
+    {
+      "id": "TL17",
+      "type": "line_section",
+      "panel": "output_bias",
+      "bbox": [
+        1330,
+        312,
+        55,
+        25
+      ]
+    },
+    {
+      "id": "R19",
+      "type": "resistor",
+      "panel": "output_bias",
+      "bbox": [
+        1394,
+        122,
+        28,
+        51
+      ]
+    },
+    {
+      "id": "L5",
+      "type": "inductor",
+      "panel": "output_bias",
+      "bbox": [
+        1390,
+        187,
+        37,
+        57
+      ]
+    },
+    {
+      "id": "C12",
+      "type": "capacitor",
+      "panel": "output_bias",
+      "bbox": [
+        1419,
+        307,
+        48,
+        35
+      ]
+    },
+    {
+      "id": "RF_OUT",
+      "type": "pad",
+      "panel": "output_bias",
+      "bbox": [
+        1486,
+        316,
+        18,
+        18
+      ]
+    },
+    {
+      "id": "R11",
+      "type": "resistor",
+      "panel": "core_stability",
+      "bbox": [
+        766,
+        474,
+        29,
+        49
+      ]
+    },
+    {
+      "id": "R10",
+      "type": "resistor",
+      "panel": "core_stability",
+      "bbox": [
+        788,
+        550,
+        43,
+        29
+      ]
+    },
+    {
+      "id": "M0_2",
+      "type": "nmos",
+      "panel": "core_stability",
+      "bbox": [
+        766,
+        584,
+        47,
+        74
+      ]
+    },
+    {
+      "id": "G_M0_2",
+      "type": "ground",
+      "panel": "core_stability",
+      "bbox": [
+        772,
+        647,
+        28,
+        24
+      ]
+    },
+    {
+      "id": "TL10",
+      "type": "line_section",
+      "panel": "core_stability",
+      "bbox": [
+        866,
+        524,
+        55,
+        24
+      ]
+    },
+    {
+      "id": "R12",
+      "type": "resistor",
+      "panel": "core_stability",
+      "bbox": [
+        875,
+        610,
+        43,
+        28
+      ]
+    },
+    {
+      "id": "R13",
+      "type": "resistor",
+      "panel": "core_stability",
+      "bbox": [
+        971,
+        610,
+        43,
+        28
+      ]
+    },
+    {
+      "id": "R21",
+      "type": "resistor",
+      "panel": "output_bias",
+      "bbox": [
+        1054,
+        610,
+        43,
+        28
+      ]
+    },
+    {
+      "id": "TL11",
+      "type": "line_section",
+      "panel": "output_bias",
+      "bbox": [
+        1069,
+        524,
+        55,
+        24
+      ]
+    },
+    {
+      "id": "R15",
+      "type": "resistor",
+      "panel": "output_bias",
+      "bbox": [
+        1176,
+        474,
+        29,
+        49
+      ]
+    },
+    {
+      "id": "TL18",
+      "type": "line_section",
+      "panel": "output_bias",
+      "bbox": [
+        1458,
+        487,
+        25,
+        54
+      ]
+    },
+    {
+      "id": "R20",
+      "type": "resistor",
+      "panel": "output_bias",
+      "bbox": [
+        1404,
+        554,
+        45,
+        28
+      ]
+    },
+    {
+      "id": "C13",
+      "type": "capacitor",
+      "panel": "output_bias",
+      "bbox": [
+        1340,
+        550,
+        48,
+        35
+      ]
+    },
+    {
+      "id": "G_C2",
+      "type": "ground",
+      "panel": "input_feedback",
+      "bbox": [
+        178,
+        263,
+        25,
+        32
+      ]
+    },
+    {
+      "id": "G_C5",
+      "type": "ground",
+      "panel": "core_stability",
+      "bbox": [
+        575,
+        104,
+        30,
+        32
+      ]
+    },
+    {
+      "id": "G_C13",
+      "type": "ground",
+      "panel": "output_bias",
+      "bbox": [
+        1308,
+        550,
+        25,
+        35
+      ]
+    }
+  ],
+  "nets": {
+    "0": [
+      "M0_1.S",
+      "G_M0_1.P",
+      "TL2.B",
+      "G_M1.P",
+      "Cvgc.B",
+      "G_Cvgc.P",
+      "RLER.B",
+      "G_RLER.P",
+      "C11.B",
+      "G_C11.P",
+      "C8.B",
+      "G_C8.P",
+      "TL12.A",
+      "G_TL12.P",
+      "TL16.B",
+      "G_M4.P",
+      "M0_2.S",
+      "G_M0_2.P",
+      "C2.B",
+      "G_C2.P",
+      "C5.B",
+      "G_C5.P",
+      "C13.A",
+      "G_C13.P"
+    ],
+    "bias_m01_d": [
+      "M0_1.D",
+      "R1.A"
+    ],
+    "bias_left": [
+      "M0_1.G",
+      "R1.B",
+      "R2.A"
+    ],
+    "bias_r2": [
+      "R2.B",
+      "R3.A",
+      "R4.A"
+    ],
+    "bias_mid": [
+      "R4.B",
+      "R5.A",
+      "R6.A",
+      "R8.A"
+    ],
+    "bias_c5": [
+      "R6.B",
+      "C5.A"
+    ],
+    "supply": [
+      "R8.B",
+      "L3.A",
+      "R17.A",
+      "C8.A",
+      "L4.A",
+      "R19.A",
+      "TL18.A"
+    ],
+    "bias_r17": [
+      "R17.B",
+      "C11.A"
+    ],
+    "bias_l4": [
+      "L4.B",
+      "R16.A"
+    ],
+    "bias_r19": [
+      "R19.B",
+      "L5.A"
+    ],
+    "rf_in": [
+      "RF_IN.B",
+      "C1.A"
+    ],
+    "imn_main": [
+      "C1.B",
+      "L1.B",
+      "TL1.A"
+    ],
+    "imn_top": [
+      "L1.A",
+      "C2.A",
+      "R3.B"
+    ],
+    "m1_gate": [
+      "TL1.B",
+      "M1.G"
+    ],
+    "m1_source": [
+      "M1.S",
+      "TL2.A"
+    ],
+    "m1_drain": [
+      "M1.D",
+      "TL3.A",
+      "L2.A"
+    ],
+    "tl3_c3": [
+      "TL3.B",
+      "C3.A"
+    ],
+    "feedback_left": [
+      "C3.B",
+      "TL5.A",
+      "TL4.B"
+    ],
+    "bias_r5": [
+      "R5.B",
+      "TL4.A",
+      "R7.A"
+    ],
+    "m2_gate": [
+      "TL5.B",
+      "M2.G"
+    ],
+    "reuse_mid": [
+      "L2.B",
+      "R9.A"
+    ],
+    "m2_source": [
+      "M2.S",
+      "TL6.A"
+    ],
+    "vgc_node": [
+      "TL6.B",
+      "Cvgc.A",
+      "RLER.A",
+      "R9.B"
+    ],
+    "m2_drain": [
+      "M2.D",
+      "TL7.A"
+    ],
+    "m2_output": [
+      "TL7.B",
+      "C6.A",
+      "L3.B",
+      "TL8.B"
+    ],
+    "feedback_r7c4": [
+      "R7.B",
+      "C4.A"
+    ],
+    "feedback_c4tl8": [
+      "C4.B",
+      "TL8.A"
+    ],
+    "c6_tl9": [
+      "C6.B",
+      "TL9.A",
+      "R11.A"
+    ],
+    "m3_gate": [
+      "TL9.B",
+      "M3.G",
+      "C7.A"
+    ],
+    "m3_drain": [
+      "M3.D",
+      "TL13.A",
+      "TL14.A"
+    ],
+    "c7_r14": [
+      "C7.B",
+      "R14.A"
+    ],
+    "m3_source": [
+      "M3.S",
+      "TL12.B"
+    ],
+    "lr_left": [
+      "TL14.B",
+      "TL15.A",
+      "R16.B"
+    ],
+    "tl15_c9": [
+      "TL15.B",
+      "C9.A"
+    ],
+    "rc_left": [
+      "C9.B",
+      "C10.A",
+      "R18.A",
+      "R15.A"
+    ],
+    "rc_right": [
+      "C10.B",
+      "R18.B",
+      "M4.G"
+    ],
+    "m4_drain": [
+      "M4.D",
+      "TL17.A"
+    ],
+    "rf_output_node": [
+      "TL17.B",
+      "C12.A",
+      "L5.B"
+    ],
+    "rf_out": [
+      "C12.B",
+      "RF_OUT.A"
+    ],
+    "m4_source": [
+      "M4.S",
+      "TL16.A"
+    ],
+    "bias_r11": [
+      "R11.B",
+      "TL10.A"
+    ],
+    "bias_tl10": [
+      "TL10.B",
+      "R12.B",
+      "R13.A"
+    ],
+    "bias_m02_gate": [
+      "R12.A",
+      "R10.B",
+      "M0_2.G"
+    ],
+    "bias_m02_drain": [
+      "R10.A",
+      "M0_2.D"
+    ],
+    "bias_r13": [
+      "R13.B",
+      "TL11.A",
+      "R21.A"
+    ],
+    "bias_tl11": [
+      "TL11.B",
+      "R15.B"
+    ],
+    "bias_bottom_right": [
+      "R21.B",
+      "TL18.B",
+      "R20.B"
+    ],
+    "bias_r20c13": [
+      "R20.A",
+      "C13.B"
+    ],
+    "stability_bottom": [
+      "R14.B",
+      "TL13.B"
+    ]
+  },
+  "open_pins": {},
+  "must_connect": [
+    [
+      "R16.B",
+      "TL14.B"
+    ],
+    [
+      "L5.B",
+      "C12.A"
+    ],
+    [
+      "C7.B",
+      "R14.A"
+    ],
+    [
+      "R14.B",
+      "TL13.B"
+    ],
+    [
+      "TL13.A",
+      "M3.D"
+    ],
+    [
+      "R18.A",
+      "C10.A"
+    ],
+    [
+      "R18.B",
+      "C10.B"
+    ],
+    [
+      "R9.B",
+      "TL6.B"
+    ],
+    [
+      "R7.A",
+      "TL4.A"
+    ],
+    [
+      "C2.B",
+      "G_C2.P"
+    ],
+    [
+      "C5.B",
+      "G_C5.P"
+    ],
+    [
+      "C13.A",
+      "G_C13.P"
+    ]
+  ],
+  "must_separate": [
+    [
+      "R16.B",
+      "L5.B"
+    ],
+    [
+      "TL13.A",
+      "TL13.B"
+    ],
+    [
+      "C7.A",
+      "TL13.A"
+    ],
+    [
+      "C10.A",
+      "C10.B"
+    ],
+    [
+      "M3.D",
+      "M3.S"
+    ],
+    [
+      "R9.B",
+      "M2.S"
+    ],
+    [
+      "R7.A",
+      "C3.B"
+    ]
+  ],
+  "junctions": [
+    {
+      "id": "J_SUP0",
+      "panel": "input_feedback",
+      "bbox": [
+        150,
+        76,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_R2",
+      "panel": "input_feedback",
+      "bbox": [
+        300,
+        76,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_R4",
+      "panel": "input_feedback",
+      "bbox": [
+        448,
+        76,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_VDD",
+      "panel": "core_stability",
+      "bbox": [
+        694,
+        76,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_R17",
+      "panel": "core_stability",
+      "bbox": [
+        819,
+        76,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_C8",
+      "panel": "core_stability",
+      "bbox": [
+        930,
+        76,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_L4",
+      "panel": "output_bias",
+      "bbox": [
+        1059,
+        76,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_R19",
+      "panel": "output_bias",
+      "bbox": [
+        1401,
+        76,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_IMN",
+      "panel": "input_feedback",
+      "bbox": [
+        112,
+        383,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_IMN_TOP",
+      "panel": "input_feedback",
+      "bbox": [
+        112,
+        275,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_FB_LEFT",
+      "panel": "input_feedback",
+      "bbox": [
+        448,
+        233,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_M2_OUT",
+      "panel": "core_stability",
+      "bbox": [
+        694,
+        320,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_VGC",
+      "panel": "core_stability",
+      "bbox": [
+        603,
+        466,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_M3_GATE",
+      "panel": "core_stability",
+      "bbox": [
+        869,
+        320,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_M3_SOURCE",
+      "panel": "core_stability",
+      "bbox": [
+        969,
+        352,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_LR_LEFT",
+      "panel": "output_bias",
+      "bbox": [
+        1059,
+        352,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_RC_LEFT",
+      "panel": "output_bias",
+      "bbox": [
+        1184,
+        352,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_RC_RIGHT",
+      "panel": "output_bias",
+      "bbox": [
+        1248,
+        352,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_RF_OUT",
+      "panel": "output_bias",
+      "bbox": [
+        1401,
+        320,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_BOT_A",
+      "panel": "core_stability",
+      "bbox": [
+        842,
+        619,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_BOT_B",
+      "panel": "core_stability",
+      "bbox": [
+        941,
+        619,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_BOT_C",
+      "panel": "output_bias",
+      "bbox": [
+        1025,
+        619,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_R20",
+      "panel": "output_bias",
+      "bbox": [
+        1466,
+        563,
+        8,
+        8
+      ]
+    },
+    {
+      "id": "J_R6",
+      "panel": "input_feedback",
+      "bbox": [
+        449,
+        117,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "J_M1_D",
+      "panel": "input_feedback",
+      "bbox": [
+        308,
+        353,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "J_FB_MAIN",
+      "panel": "input_feedback",
+      "bbox": [
+        449,
+        353,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "J_FB_OUT",
+      "panel": "core_stability",
+      "bbox": [
+        695,
+        234,
+        6,
+        6
+      ]
+    },
+    {
+      "id": "J_C6_OUT",
+      "panel": "core_stability",
+      "bbox": [
+        775,
+        321,
+        6,
+        6
+      ]
+    }
+  ],
+  "labels": [
+    "M0_1",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "C5",
+    "R8",
+    "L1",
+    "C1",
+    "C2",
+    "TL1",
+    "M1",
+    "TL2",
+    "TL3",
+    "C3",
+    "TL4",
+    "TL5",
+    "R7",
+    "C4",
+    "TL8",
+    "L2",
+    "R9",
+    "M2",
+    "TL6",
+    "TL7",
+    "Cvgc",
+    "RLER",
+    "L3",
+    "R17",
+    "C11",
+    "C8",
+    "C6",
+    "TL9",
+    "M3",
+    "TL12",
+    "TL13",
+    "C7",
+    "R14",
+    "TL14",
+    "L4",
+    "R16",
+    "TL15",
+    "C9",
+    "C10",
+    "R18",
+    "M4",
+    "TL16",
+    "TL17",
+    "R19",
+    "L5",
+    "C12",
+    "R11",
+    "R10",
+    "M0_2",
+    "TL10",
+    "R12",
+    "R13",
+    "R21",
+    "TL11",
+    "R15",
+    "TL18",
+    "R20",
+    "C13",
+    "RFin",
+    "RFout",
+    "VDD",
+    "Bias Network",
+    "Bias Network",
+    "R-L-C Feedback",
+    "T-type IMN",
+    "Current-Reuse",
+    "IM1",
+    "ILER",
+    "VGC",
+    "LER",
+    "Stability Enhancement Circuit",
+    "LR Circuit",
+    "RC Circuit",
+    "M0_1, M0_2: 2×25 μm"
+  ],
+  "uncertainties": [],
+  "revision_reason": "Fresh inspection of the currently attached reference. Corrected prior transcription: C2/C5/C13 have sideways grounds; C7-R14-TL13 form one series gate-to-drain feedback path; M3 source is upper and grounded through TL12; R9 joins the node below TL6; R7 joins above TL4; M0_2 is horizontally mirrored and R10 terminal mapping follows left/right geometry."
+}
